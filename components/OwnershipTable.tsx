@@ -20,10 +20,16 @@ const SECTORS: { id: Entity["sector"] | "all"; label: string }[] = [
 ];
 
 const FRESH_STYLE: Record<string, string> = {
-  fresh: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
-  aging: "bg-amber-500/15 text-amber-300 border-amber-500/30",
-  stale: "bg-rose-500/15 text-rose-300 border-rose-500/30",
+  fresh: "bg-emerald-500/10 text-emerald-700 border-emerald-500/30",
+  aging: "bg-amber-500/10 text-amber-700 border-amber-500/40",
+  stale: "bg-rose-500/10 text-rose-700 border-rose-500/40",
 };
+
+function valuationLabel(v?: number): string | null {
+  if (v == null) return null;
+  if (v >= 1000) return `~$${(v / 1000).toFixed(1)}T`;
+  return `~$${v}B`;
+}
 
 function FreshnessBadge({ r }: { r: Relationship }) {
   const f = freshness(r);
@@ -103,11 +109,21 @@ function CompanyCard({ company }: { company: Entity }) {
               .join(" · ")}
           </p>
         </div>
-        {company.sector ? (
-          <span className="rounded-full border border-[var(--border)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[var(--muted)]">
-            {company.sector.replace("-", " ")}
-          </span>
-        ) : null}
+        <div className="flex items-center gap-2">
+          {valuationLabel(company.valuationB) ? (
+            <span
+              title="Approximate valuation (public reporting)"
+              className="rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-2 py-0.5 text-[11px] font-bold text-[var(--accent)]"
+            >
+              {valuationLabel(company.valuationB)}
+            </span>
+          ) : null}
+          {company.sector ? (
+            <span className="rounded-full border border-[var(--border)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[var(--muted)]">
+              {company.sector.replace("-", " ")}
+            </span>
+          ) : null}
+        </div>
       </div>
       <p className="mt-2 text-sm leading-snug text-[var(--muted)]">{company.blurb}</p>
 
@@ -135,7 +151,13 @@ export default function OwnershipTable() {
   const [q, setQ] = useState("");
   const [sector, setSector] = useState<Entity["sector"] | "all">("all");
 
-  const labs = useMemo(() => entities.filter((e) => e.kind === "lab"), []);
+  const labs = useMemo(
+    () =>
+      entities
+        .filter((e) => e.kind === "lab")
+        .sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0)),
+    [],
+  );
 
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();

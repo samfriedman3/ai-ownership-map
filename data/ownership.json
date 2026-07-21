@@ -9,7 +9,9 @@
       "blurb": "Maker of ChatGPT and the GPT models. Restructured into OpenAI Group PBC (a public-benefit corporation) in October 2025, controlled by the non-profit OpenAI Foundation.",
       "hq": "San Francisco, USA",
       "founded": 2015,
-      "website": "https://openai.com"
+      "website": "https://openai.com",
+      "weight": 100,
+      "valuationB": 850
     },
     {
       "id": "anthropic",
@@ -19,7 +21,9 @@
       "blurb": "Maker of the Claude models and a public-benefit corporation. Backed heavily by Amazon and Google while remaining independently controlled by its founders and a long-term-benefit trust.",
       "hq": "San Francisco, USA",
       "founded": 2021,
-      "website": "https://anthropic.com"
+      "website": "https://anthropic.com",
+      "weight": 85,
+      "valuationB": 350
     },
     {
       "id": "google-deepmind",
@@ -29,7 +33,8 @@
       "blurb": "Google's unified AI research lab (DeepMind + Google Brain), maker of the Gemini models. A wholly-owned part of Alphabet.",
       "hq": "London, UK",
       "founded": 2010,
-      "website": "https://deepmind.google"
+      "website": "https://deepmind.google",
+      "weight": 90
     },
     {
       "id": "meta-superintelligence",
@@ -39,7 +44,8 @@
       "blurb": "Meta's AI organization (incorporating FAIR and the Llama models), reorganized in 2025 under Alexandr Wang to pursue superintelligence.",
       "hq": "Menlo Park, USA",
       "founded": 2013,
-      "website": "https://ai.meta.com"
+      "website": "https://ai.meta.com",
+      "weight": 82
     },
     {
       "id": "xai",
@@ -49,7 +55,9 @@
       "blurb": "Maker of Grok. Merged with X (formerly Twitter) in March 2025, then was absorbed by SpaceX in early 2026 in a combined ~$1.25T entity controlled by Elon Musk.",
       "hq": "Bay Area, USA",
       "founded": 2023,
-      "website": "https://x.ai"
+      "website": "https://x.ai",
+      "weight": 72,
+      "valuationB": 250
     },
     {
       "id": "mistral",
@@ -59,7 +67,9 @@
       "blurb": "France's leading AI lab, known for open-weight models. Europe's flagship independent frontier effort.",
       "hq": "Paris, France",
       "founded": 2023,
-      "website": "https://mistral.ai"
+      "website": "https://mistral.ai",
+      "weight": 40,
+      "valuationB": 14
     },
     {
       "id": "deepseek",
@@ -69,7 +79,8 @@
       "blurb": "Chinese lab whose efficient open-weight models shook the market in early 2025. Funded and controlled by quant hedge fund High-Flyer.",
       "hq": "Hangzhou, China",
       "founded": 2023,
-      "website": "https://deepseek.com"
+      "website": "https://deepseek.com",
+      "weight": 55
     },
     {
       "id": "ssi",
@@ -79,7 +90,9 @@
       "blurb": "Founded by ex-OpenAI chief scientist Ilya Sutskever to build safe superintelligence directly, with no interim products.",
       "hq": "Palo Alto / Tel Aviv",
       "founded": 2024,
-      "website": "https://ssi.inc"
+      "website": "https://ssi.inc",
+      "weight": 45,
+      "valuationB": 32
     },
     {
       "id": "thinking-machines",
@@ -89,7 +102,9 @@
       "blurb": "Founded by former OpenAI CTO Mira Murati, with a number of senior OpenAI researchers.",
       "hq": "San Francisco, USA",
       "founded": 2025,
-      "website": "https://thinkingmachines.ai"
+      "website": "https://thinkingmachines.ai",
+      "weight": 35,
+      "valuationB": 12
     },
     {
       "id": "cohere",
@@ -99,7 +114,9 @@
       "blurb": "Enterprise-focused foundation-model company built for business and RAG workloads.",
       "hq": "Toronto, Canada",
       "founded": 2019,
-      "website": "https://cohere.com"
+      "website": "https://cohere.com",
+      "weight": 26,
+      "valuationB": 7
     },
     {
       "id": "perplexity",
@@ -109,7 +126,9 @@
       "blurb": "AI-native answer engine / search product.",
       "hq": "San Francisco, USA",
       "founded": 2022,
-      "website": "https://perplexity.ai"
+      "website": "https://perplexity.ai",
+      "weight": 38,
+      "valuationB": 18
     },
     {
       "id": "character-ai",
@@ -119,7 +138,9 @@
       "blurb": "Consumer chatbot / companion platform. In 2024 Google licensed its technology and re-hired co-founder Noam Shazeer.",
       "hq": "Menlo Park, USA",
       "founded": 2021,
-      "website": "https://character.ai"
+      "website": "https://character.ai",
+      "weight": 22,
+      "valuationB": 3
     },
     {
       "id": "inflection",
@@ -129,7 +150,9 @@
       "blurb": "Maker of the Pi assistant. In March 2024 Microsoft hired most of its team, including co-founder Mustafa Suleyman, in an acqui-hire; Inflection pivoted to enterprise.",
       "hq": "Palo Alto, USA",
       "founded": 2022,
-      "website": "https://inflection.ai"
+      "website": "https://inflection.ai",
+      "weight": 20,
+      "valuationB": 4
     },
     {
       "id": "hugging-face",
@@ -139,7 +162,9 @@
       "blurb": "The open-source hub and platform for sharing models and datasets.",
       "hq": "New York, USA",
       "founded": 2016,
-      "website": "https://huggingface.co"
+      "website": "https://huggingface.co",
+      "weight": 28,
+      "valuationB": 4.5
     },
     {
       "id": "stability-ai",
@@ -149,7 +174,9 @@
       "blurb": "Maker of Stable Diffusion image models.",
       "hq": "London, UK",
       "founded": 2019,
-      "website": "https://stability.ai"
+      "website": "https://stability.ai",
+      "weight": 16,
+      "valuationB": 1
     },
     {
       "id": "elevenlabs",
@@ -159,7 +186,9 @@
       "blurb": "Leading AI voice / speech synthesis company.",
       "hq": "London / New York",
       "founded": 2022,
-      "website": "https://elevenlabs.io"
+      "website": "https://elevenlabs.io",
+      "weight": 25,
+      "valuationB": 6
     },
     {
       "id": "midjourney",
@@ -169,7 +198,8 @@
       "blurb": "AI image generator. Notably bootstrapped and profitable — it has taken no outside investment.",
       "hq": "San Francisco, USA",
       "founded": 2021,
-      "website": "https://midjourney.com"
+      "website": "https://midjourney.com",
+      "weight": 30
     },
     {
       "id": "scale-ai",
@@ -179,7 +209,9 @@
       "blurb": "Data-labeling and evaluation infrastructure for AI training. Meta took a 49% non-voting stake in 2025.",
       "hq": "San Francisco, USA",
       "founded": 2016,
-      "website": "https://scale.com"
+      "website": "https://scale.com",
+      "weight": 42,
+      "valuationB": 29
     },
     {
       "id": "microsoft",
@@ -188,7 +220,8 @@
       "sector": "platform",
       "blurb": "Largest OpenAI shareholder; also runs its own MAI models and absorbed most of Inflection's team.",
       "hq": "Redmond, USA",
-      "website": "https://microsoft.com"
+      "website": "https://microsoft.com",
+      "weight": 95
     },
     {
       "id": "google",
@@ -197,7 +230,8 @@
       "sector": "platform",
       "blurb": "Owns Google DeepMind outright and is a major backer of Anthropic; licensed Character.AI's technology.",
       "hq": "Mountain View, USA",
-      "website": "https://abc.xyz"
+      "website": "https://abc.xyz",
+      "weight": 98
     },
     {
       "id": "amazon",
@@ -206,7 +240,8 @@
       "sector": "platform",
       "blurb": "Anthropic's largest investor and primary cloud/compute partner (AWS, Trainium).",
       "hq": "Seattle, USA",
-      "website": "https://amazon.com"
+      "website": "https://amazon.com",
+      "weight": 96
     },
     {
       "id": "meta",
@@ -215,7 +250,8 @@
       "sector": "platform",
       "blurb": "Runs Meta Superintelligence Labs and holds a 49% non-voting stake in Scale AI.",
       "hq": "Menlo Park, USA",
-      "website": "https://meta.com"
+      "website": "https://meta.com",
+      "weight": 94
     },
     {
       "id": "nvidia",
@@ -224,7 +260,8 @@
       "sector": "infrastructure",
       "blurb": "The dominant AI-chip maker and a prolific strategic investor across the AI stack.",
       "hq": "Santa Clara, USA",
-      "website": "https://nvidia.com"
+      "website": "https://nvidia.com",
+      "weight": 99
     },
     {
       "id": "spacex",
@@ -233,7 +270,8 @@
       "sector": "infrastructure",
       "blurb": "Elon Musk's rocket company, which absorbed xAI in early 2026.",
       "hq": "Hawthorne, USA",
-      "website": "https://spacex.com"
+      "website": "https://spacex.com",
+      "weight": 85
     },
     {
       "id": "asml",
@@ -242,7 +280,8 @@
       "sector": "infrastructure",
       "blurb": "The Dutch monopoly supplier of EUV lithography machines; lead investor in Mistral.",
       "hq": "Veldhoven, Netherlands",
-      "website": "https://asml.com"
+      "website": "https://asml.com",
+      "weight": 80
     },
     {
       "id": "salesforce",
@@ -251,7 +290,8 @@
       "sector": "platform",
       "blurb": "Enterprise-software giant and strategic investor via Salesforce Ventures.",
       "hq": "San Francisco, USA",
-      "website": "https://salesforce.com"
+      "website": "https://salesforce.com",
+      "weight": 68
     },
     {
       "id": "softbank",
@@ -259,7 +299,8 @@
       "kind": "investor",
       "blurb": "Japanese investment holding company; a lead backer of OpenAI's mega-rounds.",
       "hq": "Tokyo, Japan",
-      "website": "https://group.softbank"
+      "website": "https://group.softbank",
+      "weight": 72
     },
     {
       "id": "a16z",
@@ -267,7 +308,8 @@
       "kind": "investor",
       "blurb": "Silicon Valley venture firm with one of the broadest AI portfolios.",
       "hq": "Menlo Park, USA",
-      "website": "https://a16z.com"
+      "website": "https://a16z.com",
+      "weight": 50
     },
     {
       "id": "thrive",
@@ -275,7 +317,8 @@
       "kind": "investor",
       "blurb": "Josh Kushner's venture firm; a lead investor in OpenAI.",
       "hq": "New York, USA",
-      "website": "https://thrivecap.com"
+      "website": "https://thrivecap.com",
+      "weight": 38
     },
     {
       "id": "greenoaks",
@@ -283,21 +326,24 @@
       "kind": "investor",
       "blurb": "Growth investor; lead backer of Safe Superintelligence.",
       "hq": "San Francisco, USA",
-      "website": "https://greenoaks.com"
+      "website": "https://greenoaks.com",
+      "weight": 32
     },
     {
       "id": "high-flyer",
       "name": "High-Flyer",
       "kind": "investor",
       "blurb": "Chinese quantitative hedge fund that founded, funds and controls DeepSeek.",
-      "hq": "Hangzhou, China"
+      "hq": "Hangzhou, China",
+      "weight": 42
     },
     {
       "id": "openai-foundation",
       "name": "OpenAI Foundation",
       "kind": "foundation",
       "blurb": "The non-profit that controls OpenAI Group PBC and holds roughly a 26% economic interest.",
-      "hq": "San Francisco, USA"
+      "hq": "San Francisco, USA",
+      "weight": 48
     }
   ],
   "relationships": [
@@ -312,8 +358,14 @@
       "asOf": "2025-10-28",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "OpenAI completes restructure — CNBC", "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html" },
-        { "title": "OpenAI grants Microsoft 27% stake — AOL/Reuters", "url": "https://www.aol.com/finance/openai-completes-profit-restructuring-grants-161615860.html" }
+        {
+          "title": "OpenAI completes restructure — CNBC",
+          "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html"
+        },
+        {
+          "title": "OpenAI grants Microsoft 27% stake — AOL/Reuters",
+          "url": "https://www.aol.com/finance/openai-completes-profit-restructuring-grants-161615860.html"
+        }
       ]
     },
     {
@@ -327,8 +379,14 @@
       "asOf": "2025-10-28",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Microsoft to get 27% of OpenAI — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2025-10-28/microsoft-to-get-27-of-openai-access-to-ai-models-until-2032" },
-        { "title": "OpenAI and Microsoft end exclusive partnership — Forbes", "url": "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/" }
+        {
+          "title": "Microsoft to get 27% of OpenAI — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2025-10-28/microsoft-to-get-27-of-openai-access-to-ai-models-until-2032"
+        },
+        {
+          "title": "OpenAI and Microsoft end exclusive partnership — Forbes",
+          "url": "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/"
+        }
       ]
     },
     {
@@ -342,7 +400,10 @@
       "asOf": "2026-03-31",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "OpenAI completes restructure — CNBC", "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html" }
+        {
+          "title": "OpenAI completes restructure — CNBC",
+          "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html"
+        }
       ]
     },
     {
@@ -356,7 +417,10 @@
       "asOf": "2025-10-28",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Who Owns OpenAI — ownership breakdown", "url": "https://en.wikipedia.org/wiki/OpenAI" }
+        {
+          "title": "Who Owns OpenAI — ownership breakdown",
+          "url": "https://en.wikipedia.org/wiki/OpenAI"
+        }
       ]
     },
     {
@@ -370,7 +434,10 @@
       "asOf": "2026-06-04",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
+        {
+          "title": "Amazon and Google's billions riding on Anthropic — Fortune",
+          "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/"
+        }
       ]
     },
     {
@@ -384,7 +451,10 @@
       "asOf": "2026-04-24",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
+        {
+          "title": "Amazon and Google's billions riding on Anthropic — Fortune",
+          "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/"
+        }
       ]
     },
     {
@@ -398,7 +468,10 @@
       "asOf": "2023-04-20",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Google DeepMind — overview", "url": "https://en.wikipedia.org/wiki/Google_DeepMind" }
+        {
+          "title": "Google DeepMind — overview",
+          "url": "https://en.wikipedia.org/wiki/Google_DeepMind"
+        }
       ]
     },
     {
@@ -412,7 +485,10 @@
       "asOf": "2025-06-30",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Meta takes 49% stake in Scale AI, Wang joins — CDO Magazine", "url": "https://www.cdomagazine.tech/aiml/meta-takes-49-stake-in-scale-ai-ceo-alexandr-wang-joins-to-boost-ai-push" }
+        {
+          "title": "Meta takes 49% stake in Scale AI, Wang joins — CDO Magazine",
+          "url": "https://www.cdomagazine.tech/aiml/meta-takes-49-stake-in-scale-ai-ceo-alexandr-wang-joins-to-boost-ai-push"
+        }
       ]
     },
     {
@@ -426,8 +502,14 @@
       "asOf": "2025-06-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Scale AI founder Wang exits for Meta — CNBC", "url": "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html" },
-        { "title": "Meta takes 49% stake in Scale AI — CDO Magazine", "url": "https://www.cdomagazine.tech/aiml/meta-takes-49-stake-in-scale-ai-ceo-alexandr-wang-joins-to-boost-ai-push" }
+        {
+          "title": "Scale AI founder Wang exits for Meta — CNBC",
+          "url": "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html"
+        },
+        {
+          "title": "Meta takes 49% stake in Scale AI — CDO Magazine",
+          "url": "https://www.cdomagazine.tech/aiml/meta-takes-49-stake-in-scale-ai-ceo-alexandr-wang-joins-to-boost-ai-push"
+        }
       ]
     },
     {
@@ -441,8 +523,14 @@
       "asOf": "2026-02-02",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC", "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html" },
-        { "title": "SpaceX combines with xAI at $1.25T — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo" }
+        {
+          "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC",
+          "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html"
+        },
+        {
+          "title": "SpaceX combines with xAI at $1.25T — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo"
+        }
       ]
     },
     {
@@ -456,8 +544,14 @@
       "asOf": "2025-09-09",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Mistral valued at $14B as ASML takes major stake — CNBC", "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html" },
-        { "title": "ASML–Mistral strategic partnership — ASML", "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership" }
+        {
+          "title": "Mistral valued at $14B as ASML takes major stake — CNBC",
+          "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html"
+        },
+        {
+          "title": "ASML–Mistral strategic partnership — ASML",
+          "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
+        }
       ]
     },
     {
@@ -471,7 +565,10 @@
       "asOf": "2025-09-09",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Mistral AI — investors", "url": "https://en.wikipedia.org/wiki/Mistral_AI" }
+        {
+          "title": "Mistral AI — investors",
+          "url": "https://en.wikipedia.org/wiki/Mistral_AI"
+        }
       ]
     },
     {
@@ -485,7 +582,10 @@
       "asOf": "2023-07-17",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "DeepSeek — background", "url": "https://en.wikipedia.org/wiki/DeepSeek" }
+        {
+          "title": "DeepSeek — background",
+          "url": "https://en.wikipedia.org/wiki/DeepSeek"
+        }
       ]
     },
     {
@@ -499,7 +599,10 @@
       "asOf": "2025-04-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Safe Superintelligence — funding", "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence" }
+        {
+          "title": "Safe Superintelligence — funding",
+          "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
+        }
       ]
     },
     {
@@ -513,7 +616,10 @@
       "asOf": "2024-09-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Safe Superintelligence — funding", "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence" }
+        {
+          "title": "Safe Superintelligence — funding",
+          "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
+        }
       ]
     },
     {
@@ -527,7 +633,10 @@
       "asOf": "2025-07-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Thinking Machines Lab — funding", "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab" }
+        {
+          "title": "Thinking Machines Lab — funding",
+          "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
+        }
       ]
     },
     {
@@ -541,7 +650,10 @@
       "asOf": "2024-07-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Cohere — investors", "url": "https://en.wikipedia.org/wiki/Cohere" }
+        {
+          "title": "Cohere — investors",
+          "url": "https://en.wikipedia.org/wiki/Cohere"
+        }
       ]
     },
     {
@@ -555,7 +667,10 @@
       "asOf": "2024-07-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Cohere — investors", "url": "https://en.wikipedia.org/wiki/Cohere" }
+        {
+          "title": "Cohere — investors",
+          "url": "https://en.wikipedia.org/wiki/Cohere"
+        }
       ]
     },
     {
@@ -569,7 +684,10 @@
       "asOf": "2024-04-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Perplexity AI — investors", "url": "https://en.wikipedia.org/wiki/Perplexity_AI" }
+        {
+          "title": "Perplexity AI — investors",
+          "url": "https://en.wikipedia.org/wiki/Perplexity_AI"
+        }
       ]
     },
     {
@@ -583,7 +701,10 @@
       "asOf": "2024-12-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Perplexity AI — investors", "url": "https://en.wikipedia.org/wiki/Perplexity_AI" }
+        {
+          "title": "Perplexity AI — investors",
+          "url": "https://en.wikipedia.org/wiki/Perplexity_AI"
+        }
       ]
     },
     {
@@ -597,7 +718,10 @@
       "asOf": "2024-08-02",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Character.ai — Google deal", "url": "https://en.wikipedia.org/wiki/Character.ai" }
+        {
+          "title": "Character.ai — Google deal",
+          "url": "https://en.wikipedia.org/wiki/Character.ai"
+        }
       ]
     },
     {
@@ -611,7 +735,10 @@
       "asOf": "2024-03-19",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Inflection AI — Microsoft deal", "url": "https://en.wikipedia.org/wiki/Inflection_AI" }
+        {
+          "title": "Inflection AI — Microsoft deal",
+          "url": "https://en.wikipedia.org/wiki/Inflection_AI"
+        }
       ]
     },
     {
@@ -625,7 +752,10 @@
       "asOf": "2023-08-24",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Hugging Face — investors", "url": "https://en.wikipedia.org/wiki/Hugging_Face" }
+        {
+          "title": "Hugging Face — investors",
+          "url": "https://en.wikipedia.org/wiki/Hugging_Face"
+        }
       ]
     },
     {
@@ -639,7 +769,10 @@
       "asOf": "2023-08-24",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "Hugging Face — investors", "url": "https://en.wikipedia.org/wiki/Hugging_Face" }
+        {
+          "title": "Hugging Face — investors",
+          "url": "https://en.wikipedia.org/wiki/Hugging_Face"
+        }
       ]
     },
     {
@@ -653,7 +786,10 @@
       "asOf": "2025-01-01",
       "verified": "2025-11-15",
       "sources": [
-        { "title": "ElevenLabs — investors", "url": "https://en.wikipedia.org/wiki/ElevenLabs" }
+        {
+          "title": "ElevenLabs — investors",
+          "url": "https://en.wikipedia.org/wiki/ElevenLabs"
+        }
       ]
     }
   ]

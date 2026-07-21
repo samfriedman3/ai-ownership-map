@@ -29,6 +29,10 @@ export interface Entity {
   hq?: string;
   founded?: number;
   website?: string;
+  /** Prominence score (roughly 15–100) driving node size and default sort order. */
+  weight?: number;
+  /** Approximate valuation in USD billions, where publicly known. Display only. */
+  valuationB?: number;
 }
 
 // How a `from` entity relates to a `to` company.

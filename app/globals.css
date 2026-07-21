@@ -1,14 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0a0b11;
-  --bg-soft: #12141d;
-  --panel: #171a26;
-  --panel-2: #1e2230;
-  --border: #2a2f42;
-  --text: #e7e9f3;
-  --muted: #9aa0b5;
-  --accent: #7c8cff;
+  --bg: #f7f8fc;
+  --bg-soft: #eef1f8;
+  --panel: #ffffff;
+  --panel-2: #eef1f8;
+  --border: #d9deec;
+  --text: #1a1e2e;
+  --muted: #5c6478;
+  --accent: #4f5bd5;
+
+  /* relationship colours (shared with the graph legend) */
+  --edge-control: #d98a1f;
+  --edge-equity: #4f5bd5;
+  --edge-investor: #159a6b;
+  --edge-talent: #b5449e;
 }
 
 html,
@@ -23,10 +29,15 @@ body {
     Helvetica, Arial, sans-serif;
 }
 
-/* React Flow dark tweaks */
+/* React Flow light tweaks */
 .react-flow__attribution {
   background: transparent !important;
-  color: #3a4056 !important;
+  color: #b7bdcc !important;
+}
+.react-flow__controls {
+  box-shadow: 0 2px 10px rgba(20, 26, 50, 0.12) !important;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .rf-node {
@@ -34,46 +45,54 @@ body {
   border: 1px solid var(--border);
   background: var(--panel);
   padding: 8px 12px;
-  font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   text-align: center;
-  line-height: 1.2;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
-  transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
+  line-height: 1.18;
+  box-shadow: 0 3px 10px rgba(20, 26, 50, 0.08);
+  transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease,
+    box-shadow 120ms ease;
   cursor: pointer;
-  max-width: 180px;
+  /* width + font-size come from inline styles (size hierarchy) */
 }
 .rf-node .rf-node-sub {
-  font-size: 10px;
+  font-size: 0.8em;
   font-weight: 500;
   color: var(--muted);
   margin-top: 2px;
 }
+.rf-node .rf-node-val {
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: 2px;
+}
+/* colour-coded left edge by entity kind */
 .rf-node.kind-lab {
-  border-color: #3b4b8f;
-  background: linear-gradient(180deg, #1b2136, #151827);
+  border-color: #c3caf0;
+  border-left: 4px solid var(--accent);
 }
 .rf-node.kind-bigtech {
-  border-color: #4a3b6f;
+  border-left: 4px solid #8a6fd0;
 }
 .rf-node.kind-investor {
-  border-color: #3b5f52;
+  border-left: 4px solid var(--edge-investor);
 }
 .rf-node.kind-foundation {
-  border-color: #6f5a3b;
+  border-left: 4px solid var(--edge-control);
 }
 .rf-node.dimmed {
-  opacity: 0.18;
+  opacity: 0.22;
+  box-shadow: none;
 }
 .rf-node.focused {
   border-color: var(--accent);
-  transform: scale(1.04);
-  box-shadow: 0 0 0 2px rgba(124, 140, 255, 0.4);
+  transform: scale(1.05);
+  box-shadow: 0 0 0 3px rgba(79, 91, 213, 0.28), 0 6px 16px rgba(20, 26, 50, 0.14);
 }
 
 /* scrollbars */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #2a2f42 transparent;
+  scrollbar-color: #cdd3e3 transparent;
 }

@@ -3,10 +3,10 @@ import OwnershipTable from "@/components/OwnershipTable";
 import { data, entities, relationships } from "@/lib/data";
 
 const LEGEND: { label: string; color: string }[] = [
-  { label: "Control / wholly owned", color: "#f0a742" },
-  { label: "Equity / convertible", color: "#7c8cff" },
-  { label: "Investor", color: "#4bb58f" },
-  { label: "Acqui-hire / licensing", color: "#c56bd6" },
+  { label: "Control / wholly owned", color: "#d98a1f" },
+  { label: "Equity / convertible", color: "#4f5bd5" },
+  { label: "Investor", color: "#159a6b" },
+  { label: "Acqui-hire / licensing", color: "#b5449e" },
 ];
 
 export default function Home() {
@@ -49,7 +49,9 @@ export default function Home() {
               {l.label}
             </div>
           ))}
-          <span className="text-xs text-[var(--muted)]">· click a node to isolate its ties</span>
+          <span className="text-xs text-[var(--muted)]">
+            · bigger node = larger company · click a node to isolate its ties
+          </span>
         </div>
       </header>
 
