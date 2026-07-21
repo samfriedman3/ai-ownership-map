@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0b11;
+  --bg-soft: #12141d;
+  --panel: #171a26;
+  --panel-2: #1e2230;
+  --border: #2a2f42;
+  --text: #e7e9f3;
+  --muted: #9aa0b5;
+  --accent: #7c8cff;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+/* React Flow dark tweaks */
+.react-flow__attribution {
+  background: transparent !important;
+  color: #3a4056 !important;
+}
+
+.rf-node {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+  line-height: 1.2;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
+  cursor: pointer;
+  max-width: 180px;
+}
+.rf-node .rf-node-sub {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.rf-node.kind-lab {
+  border-color: #3b4b8f;
+  background: linear-gradient(180deg, #1b2136, #151827);
+}
+.rf-node.kind-bigtech {
+  border-color: #4a3b6f;
+}
+.rf-node.kind-investor {
+  border-color: #3b5f52;
+}
+.rf-node.kind-foundation {
+  border-color: #6f5a3b;
+}
+.rf-node.dimmed {
+  opacity: 0.18;
+}
+.rf-node.focused {
+  border-color: var(--accent);
+  transform: scale(1.04);
+  box-shadow: 0 0 0 2px rgba(124, 140, 255, 0.4);
+}
+
+/* scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2f42 transparent;
+}

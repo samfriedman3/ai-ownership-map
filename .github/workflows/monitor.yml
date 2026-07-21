@@ -1,0 +1,56 @@
+name: Ownership monitor
+
+# Runs the semi-automated monitor and opens a pull request with any proposed
+# changes for human review. It never edits the live dataset directly.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # every Monday 13:00 UTC
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Validate current data
+        run: npm run validate-data
+
+      - name: Run monitor
+        id: monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CI: "true"
+        run: npm run monitor
+
+      - name: Open review PR
+        if: steps.monitor.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: monitor/ownership-updates
+          title: "Ownership monitor: ${{ steps.monitor.outputs.count }} change(s) to review"
+          commit-message: "chore: monitor-detected ownership changes for review"
+          body: |
+            The scheduled ownership monitor flagged possible changes.
+
+            **Review the proposal file in `data/proposals/` in this PR.**
+            Apply only the changes that check out to `data/ownership.json`,
+            update the `verified` date on each edited row, then merge.
+            Nothing here is published until you merge.
+          add-paths: |
+            data/proposals/**
+          labels: |
+            ownership-monitor
+            needs-review
