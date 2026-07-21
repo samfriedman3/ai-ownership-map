@@ -7,6 +7,7 @@ import {
   freshness,
   ownersOf,
   RELATION_LABELS,
+  shortDate,
   verificationAgeDays,
 } from "@/lib/data";
 import type { Entity, Relationship } from "@/lib/types";
@@ -19,10 +20,11 @@ const SECTORS: { id: Entity["sector"] | "all"; label: string }[] = [
   { id: "infrastructure", label: "Infrastructure" },
 ];
 
+// Fresh rows stay visually quiet; only aging/stale rows draw the eye.
 const FRESH_STYLE: Record<string, string> = {
-  fresh: "bg-emerald-500/10 text-emerald-700 border-emerald-500/30",
-  aging: "bg-amber-500/10 text-amber-700 border-amber-500/40",
-  stale: "bg-rose-500/10 text-rose-700 border-rose-500/40",
+  fresh: "border-transparent text-[var(--muted)]",
+  aging: "border-amber-500/40 bg-amber-500/10 text-amber-700",
+  stale: "border-rose-500/40 bg-rose-500/10 text-rose-700",
 };
 
 function valuationLabel(v?: number): string | null {
@@ -34,13 +36,13 @@ function valuationLabel(v?: number): string | null {
 function FreshnessBadge({ r }: { r: Relationship }) {
   const f = freshness(r);
   const days = verificationAgeDays(r);
-  const label = f === "fresh" ? "verified" : f === "aging" ? "aging" : "recheck";
+  const prefix = f === "fresh" ? "✓" : f === "aging" ? "aging ·" : "recheck ·";
   return (
     <span
       title={`Last verified ${r.verified} (${days} days ago)`}
-      className={`inline-block rounded-full border px-2 py-0.5 text-[10px] font-semibold ${FRESH_STYLE[f]}`}
+      className={`inline-block whitespace-nowrap rounded-full border px-2 py-0.5 text-[10px] font-semibold ${FRESH_STYLE[f]}`}
     >
-      {label} · {r.verified}
+      {prefix} {shortDate(r.verified)}
     </span>
   );
 }

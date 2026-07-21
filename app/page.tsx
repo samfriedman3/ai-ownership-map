@@ -49,9 +49,7 @@ export default function Home() {
               {l.label}
             </div>
           ))}
-          <span className="text-xs text-[var(--muted)]">
-            · bigger node = larger company · click a node to isolate its ties
-          </span>
+          <span className="text-xs text-[var(--muted)]">· largest companies listed first</span>
         </div>
       </header>
 

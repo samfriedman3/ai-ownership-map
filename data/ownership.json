@@ -6,24 +6,12 @@
       "name": "OpenAI",
       "kind": "lab",
       "sector": "frontier",
-      "blurb": "Maker of ChatGPT and the GPT models. Restructured into OpenAI Group PBC (a public-benefit corporation) in October 2025, controlled by the non-profit OpenAI Foundation.",
+      "blurb": "Maker of ChatGPT and the GPT models. Restructured into OpenAI Group PBC in October 2025, controlled by the non-profit OpenAI Foundation.",
       "hq": "San Francisco, USA",
       "founded": 2015,
       "website": "https://openai.com",
       "weight": 100,
-      "valuationB": 850
-    },
-    {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "kind": "lab",
-      "sector": "frontier",
-      "blurb": "Maker of the Claude models and a public-benefit corporation. Backed heavily by Amazon and Google while remaining independently controlled by its founders and a long-term-benefit trust.",
-      "hq": "San Francisco, USA",
-      "founded": 2021,
-      "website": "https://anthropic.com",
-      "weight": 85,
-      "valuationB": 350
+      "valuationB": 852
     },
     {
       "id": "google-deepmind",
@@ -34,172 +22,66 @@
       "hq": "London, UK",
       "founded": 2010,
       "website": "https://deepmind.google",
-      "weight": 90
+      "weight": 92
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "kind": "lab",
+      "sector": "frontier",
+      "blurb": "Maker of the Claude models and a public-benefit corporation. Backed heavily by Amazon and Google while remaining independently controlled by its founders and a long-term-benefit trust.",
+      "hq": "San Francisco, USA",
+      "founded": 2021,
+      "website": "https://anthropic.com",
+      "weight": 88,
+      "valuationB": 350
     },
     {
       "id": "meta-superintelligence",
       "name": "Meta Superintelligence Labs",
       "kind": "lab",
       "sector": "frontier",
-      "blurb": "Meta's AI organization (incorporating FAIR and the Llama models), reorganized in 2025 under Alexandr Wang to pursue superintelligence.",
+      "blurb": "Meta's AI division, founded June 2025 under chief AI officer Alexandr Wang. Absorbed FAIR and the Llama/Muse model efforts.",
       "hq": "Menlo Park, USA",
-      "founded": 2013,
+      "founded": 2025,
       "website": "https://ai.meta.com",
-      "weight": 82
+      "weight": 84
     },
     {
       "id": "xai",
       "name": "xAI",
       "kind": "lab",
       "sector": "frontier",
-      "blurb": "Maker of Grok. Merged with X (formerly Twitter) in March 2025, then was absorbed by SpaceX in early 2026 in a combined ~$1.25T entity controlled by Elon Musk.",
+      "blurb": "Maker of Grok. Merged with X (formerly Twitter) in March 2025, then absorbed by SpaceX in early 2026 into a combined ~$1.25T entity controlled by Elon Musk.",
       "hq": "Bay Area, USA",
       "founded": 2023,
       "website": "https://x.ai",
-      "weight": 72,
+      "weight": 78,
       "valuationB": 250
-    },
-    {
-      "id": "mistral",
-      "name": "Mistral AI",
-      "kind": "lab",
-      "sector": "open-source",
-      "blurb": "France's leading AI lab, known for open-weight models. Europe's flagship independent frontier effort.",
-      "hq": "Paris, France",
-      "founded": 2023,
-      "website": "https://mistral.ai",
-      "weight": 40,
-      "valuationB": 14
     },
     {
       "id": "deepseek",
       "name": "DeepSeek",
       "kind": "lab",
       "sector": "open-source",
-      "blurb": "Chinese lab whose efficient open-weight models shook the market in early 2025. Funded and controlled by quant hedge fund High-Flyer.",
+      "blurb": "Chinese lab whose efficient open-weight models shook the market in 2025. Wholly backed by hedge fund High-Flyer until its first external round in June 2026.",
       "hq": "Hangzhou, China",
       "founded": 2023,
       "website": "https://deepseek.com",
-      "weight": 55
+      "weight": 62,
+      "valuationB": 55
     },
     {
       "id": "ssi",
       "name": "Safe Superintelligence (SSI)",
       "kind": "lab",
       "sector": "frontier",
-      "blurb": "Founded by ex-OpenAI chief scientist Ilya Sutskever to build safe superintelligence directly, with no interim products.",
+      "blurb": "Founded by ex-OpenAI chief scientist Ilya Sutskever to build safe superintelligence directly, with no interim products and no revenue.",
       "hq": "Palo Alto / Tel Aviv",
       "founded": 2024,
       "website": "https://ssi.inc",
-      "weight": 45,
+      "weight": 52,
       "valuationB": 32
-    },
-    {
-      "id": "thinking-machines",
-      "name": "Thinking Machines Lab",
-      "kind": "lab",
-      "sector": "frontier",
-      "blurb": "Founded by former OpenAI CTO Mira Murati, with a number of senior OpenAI researchers.",
-      "hq": "San Francisco, USA",
-      "founded": 2025,
-      "website": "https://thinkingmachines.ai",
-      "weight": 35,
-      "valuationB": 12
-    },
-    {
-      "id": "cohere",
-      "name": "Cohere",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "Enterprise-focused foundation-model company built for business and RAG workloads.",
-      "hq": "Toronto, Canada",
-      "founded": 2019,
-      "website": "https://cohere.com",
-      "weight": 26,
-      "valuationB": 7
-    },
-    {
-      "id": "perplexity",
-      "name": "Perplexity AI",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "AI-native answer engine / search product.",
-      "hq": "San Francisco, USA",
-      "founded": 2022,
-      "website": "https://perplexity.ai",
-      "weight": 38,
-      "valuationB": 18
-    },
-    {
-      "id": "character-ai",
-      "name": "Character.AI",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "Consumer chatbot / companion platform. In 2024 Google licensed its technology and re-hired co-founder Noam Shazeer.",
-      "hq": "Menlo Park, USA",
-      "founded": 2021,
-      "website": "https://character.ai",
-      "weight": 22,
-      "valuationB": 3
-    },
-    {
-      "id": "inflection",
-      "name": "Inflection AI",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "Maker of the Pi assistant. In March 2024 Microsoft hired most of its team, including co-founder Mustafa Suleyman, in an acqui-hire; Inflection pivoted to enterprise.",
-      "hq": "Palo Alto, USA",
-      "founded": 2022,
-      "website": "https://inflection.ai",
-      "weight": 20,
-      "valuationB": 4
-    },
-    {
-      "id": "hugging-face",
-      "name": "Hugging Face",
-      "kind": "lab",
-      "sector": "infrastructure",
-      "blurb": "The open-source hub and platform for sharing models and datasets.",
-      "hq": "New York, USA",
-      "founded": 2016,
-      "website": "https://huggingface.co",
-      "weight": 28,
-      "valuationB": 4.5
-    },
-    {
-      "id": "stability-ai",
-      "name": "Stability AI",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "Maker of Stable Diffusion image models.",
-      "hq": "London, UK",
-      "founded": 2019,
-      "website": "https://stability.ai",
-      "weight": 16,
-      "valuationB": 1
-    },
-    {
-      "id": "elevenlabs",
-      "name": "ElevenLabs",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "Leading AI voice / speech synthesis company.",
-      "hq": "London / New York",
-      "founded": 2022,
-      "website": "https://elevenlabs.io",
-      "weight": 25,
-      "valuationB": 6
-    },
-    {
-      "id": "midjourney",
-      "name": "Midjourney",
-      "kind": "lab",
-      "sector": "specialist",
-      "blurb": "AI image generator. Notably bootstrapped and profitable — it has taken no outside investment.",
-      "hq": "San Francisco, USA",
-      "founded": 2021,
-      "website": "https://midjourney.com",
-      "weight": 30
     },
     {
       "id": "scale-ai",
@@ -210,25 +92,145 @@
       "hq": "San Francisco, USA",
       "founded": 2016,
       "website": "https://scale.com",
-      "weight": 42,
+      "weight": 48,
       "valuationB": 29
     },
     {
-      "id": "microsoft",
-      "name": "Microsoft",
+      "id": "perplexity",
+      "name": "Perplexity AI",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "AI-native answer engine competing with traditional search.",
+      "hq": "San Francisco, USA",
+      "founded": 2022,
+      "website": "https://perplexity.ai",
+      "weight": 44,
+      "valuationB": 23
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "kind": "lab",
+      "sector": "open-source",
+      "blurb": "France's leading AI lab, known for open-weight models. Europe's flagship independent frontier effort.",
+      "hq": "Paris, France",
+      "founded": 2023,
+      "website": "https://mistral.ai",
+      "weight": 38,
+      "valuationB": 14
+    },
+    {
+      "id": "thinking-machines",
+      "name": "Thinking Machines Lab",
+      "kind": "lab",
+      "sector": "frontier",
+      "blurb": "Founded by former OpenAI CTO Mira Murati. Raised the largest seed round in history; talks at a ~$50B valuation collapsed in early 2026.",
+      "hq": "San Francisco, USA",
+      "founded": 2025,
+      "website": "https://thinkingmachines.ai",
+      "weight": 36,
+      "valuationB": 12
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "Leading AI voice and speech-synthesis company, eyeing an IPO.",
+      "hq": "London / New York",
+      "founded": 2022,
+      "website": "https://elevenlabs.io",
+      "weight": 35,
+      "valuationB": 11
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "Enterprise- and sovereign-AI focused foundation-model company.",
+      "hq": "Toronto, Canada",
+      "founded": 2019,
+      "website": "https://cohere.com",
+      "weight": 30,
+      "valuationB": 6.8
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "kind": "lab",
+      "sector": "infrastructure",
+      "blurb": "The open-source hub where the industry shares models and datasets.",
+      "hq": "New York, USA",
+      "founded": 2016,
+      "website": "https://huggingface.co",
+      "weight": 27,
+      "valuationB": 4.5
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "AI image generator — famously bootstrapped, with ~$600M ARR, roughly 40 staff and zero outside investors.",
+      "hq": "San Francisco, USA",
+      "founded": 2021,
+      "website": "https://midjourney.com",
+      "weight": 26
+    },
+    {
+      "id": "inflection",
+      "name": "Inflection AI",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "Maker of the Pi assistant. Microsoft hired most of its team in a 2024 acqui-hire; Inflection continues as an enterprise company.",
+      "hq": "Palo Alto, USA",
+      "founded": 2022,
+      "website": "https://inflection.ai",
+      "weight": 22,
+      "valuationB": 4
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "Consumer chatbot and companion platform. Google licensed its technology and re-hired co-founder Noam Shazeer in 2024.",
+      "hq": "Menlo Park, USA",
+      "founded": 2021,
+      "website": "https://character.ai",
+      "weight": 20,
+      "valuationB": 3
+    },
+    {
+      "id": "stability-ai",
+      "name": "Stability AI",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "Maker of the Stable Diffusion image models; recapitalized under new leadership in 2024.",
+      "hq": "London, UK",
+      "founded": 2019,
+      "website": "https://stability.ai",
+      "weight": 16,
+      "valuationB": 1
+    },
+
+    {
+      "id": "nvidia",
+      "name": "Nvidia",
       "kind": "bigtech",
-      "sector": "platform",
-      "blurb": "Largest OpenAI shareholder; also runs its own MAI models and absorbed most of Inflection's team.",
-      "hq": "Redmond, USA",
-      "website": "https://microsoft.com",
-      "weight": 95
+      "sector": "infrastructure",
+      "blurb": "The dominant AI-chip maker and the most prolific strategic investor across the entire AI stack.",
+      "hq": "Santa Clara, USA",
+      "website": "https://nvidia.com",
+      "weight": 99
     },
     {
       "id": "google",
       "name": "Alphabet / Google",
       "kind": "bigtech",
       "sector": "platform",
-      "blurb": "Owns Google DeepMind outright and is a major backer of Anthropic; licensed Character.AI's technology.",
+      "blurb": "Owns Google DeepMind outright, is a major Anthropic backer, and licensed Character.AI's technology.",
       "hq": "Mountain View, USA",
       "website": "https://abc.xyz",
       "weight": 98
@@ -238,10 +240,20 @@
       "name": "Amazon",
       "kind": "bigtech",
       "sector": "platform",
-      "blurb": "Anthropic's largest investor and primary cloud/compute partner (AWS, Trainium).",
+      "blurb": "Anthropic's largest investor and primary cloud/compute partner; entered OpenAI's 2026 round.",
       "hq": "Seattle, USA",
       "website": "https://amazon.com",
       "weight": 96
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "kind": "bigtech",
+      "sector": "platform",
+      "blurb": "OpenAI's largest external shareholder; also runs its own MAI models and absorbed Inflection's team.",
+      "hq": "Redmond, USA",
+      "website": "https://microsoft.com",
+      "weight": 95
     },
     {
       "id": "meta",
@@ -254,21 +266,21 @@
       "weight": 94
     },
     {
-      "id": "nvidia",
-      "name": "Nvidia",
+      "id": "tencent",
+      "name": "Tencent",
       "kind": "bigtech",
-      "sector": "infrastructure",
-      "blurb": "The dominant AI-chip maker and a prolific strategic investor across the AI stack.",
-      "hq": "Santa Clara, USA",
-      "website": "https://nvidia.com",
-      "weight": 99
+      "sector": "platform",
+      "blurb": "Chinese tech giant; co-led DeepSeek's first external funding round in 2026.",
+      "hq": "Shenzhen, China",
+      "website": "https://tencent.com",
+      "weight": 90
     },
     {
       "id": "spacex",
       "name": "SpaceX",
       "kind": "bigtech",
       "sector": "infrastructure",
-      "blurb": "Elon Musk's rocket company, which absorbed xAI in early 2026.",
+      "blurb": "Elon Musk's rocket company, which absorbed xAI in early 2026 ahead of a planned IPO.",
       "hq": "Hawthorne, USA",
       "website": "https://spacex.com",
       "weight": 85
@@ -278,17 +290,27 @@
       "name": "ASML",
       "kind": "bigtech",
       "sector": "infrastructure",
-      "blurb": "The Dutch monopoly supplier of EUV lithography machines; lead investor in Mistral.",
+      "blurb": "The Dutch monopoly supplier of EUV lithography machines; Mistral's largest shareholder.",
       "hq": "Veldhoven, Netherlands",
       "website": "https://asml.com",
       "weight": 80
+    },
+    {
+      "id": "catl",
+      "name": "CATL",
+      "kind": "bigtech",
+      "sector": "infrastructure",
+      "blurb": "The world's largest battery maker; co-led DeepSeek's 2026 round.",
+      "hq": "Ningde, China",
+      "website": "https://catl.com",
+      "weight": 70
     },
     {
       "id": "salesforce",
       "name": "Salesforce",
       "kind": "bigtech",
       "sector": "platform",
-      "blurb": "Enterprise-software giant and strategic investor via Salesforce Ventures.",
+      "blurb": "Enterprise-software giant investing across AI via Salesforce Ventures.",
       "hq": "San Francisco, USA",
       "website": "https://salesforce.com",
       "weight": 68
@@ -300,25 +322,43 @@
       "blurb": "Japanese investment holding company; a lead backer of OpenAI's mega-rounds.",
       "hq": "Tokyo, Japan",
       "website": "https://group.softbank",
-      "weight": 72
+      "weight": 74
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia Capital",
+      "kind": "investor",
+      "blurb": "Storied venture firm; led ElevenLabs' 2026 Series D.",
+      "hq": "Menlo Park, USA",
+      "website": "https://sequoiacap.com",
+      "weight": 62
     },
     {
       "id": "a16z",
-      "name": "Andreessen Horowitz (a16z)",
+      "name": "Andreessen Horowitz",
       "kind": "investor",
-      "blurb": "Silicon Valley venture firm with one of the broadest AI portfolios.",
+      "blurb": "Venture firm with one of the broadest AI portfolios, from SSI to ElevenLabs.",
       "hq": "Menlo Park, USA",
       "website": "https://a16z.com",
-      "weight": 50
+      "weight": 58
     },
     {
-      "id": "thrive",
-      "name": "Thrive Capital",
+      "id": "lightspeed",
+      "name": "Lightspeed",
       "kind": "investor",
-      "blurb": "Josh Kushner's venture firm; a lead investor in OpenAI.",
+      "blurb": "Venture firm backing SSI, Mistral and Stability AI.",
+      "hq": "Menlo Park, USA",
+      "website": "https://lsvp.com",
+      "weight": 48
+    },
+    {
+      "id": "coatue",
+      "name": "Coatue",
+      "kind": "investor",
+      "blurb": "Crossover investor active in late-stage AI rounds.",
       "hq": "New York, USA",
-      "website": "https://thrivecap.com",
-      "weight": 38
+      "website": "https://coatue.com",
+      "weight": 46
     },
     {
       "id": "greenoaks",
@@ -327,23 +367,40 @@
       "blurb": "Growth investor; lead backer of Safe Superintelligence.",
       "hq": "San Francisco, USA",
       "website": "https://greenoaks.com",
-      "weight": 32
+      "weight": 44
     },
     {
       "id": "high-flyer",
       "name": "High-Flyer",
       "kind": "investor",
-      "blurb": "Chinese quantitative hedge fund that founded, funds and controls DeepSeek.",
+      "blurb": "Chinese quant hedge fund founded by Liang Wenfeng that created and controls DeepSeek.",
       "hq": "Hangzhou, China",
       "weight": 42
+    },
+    {
+      "id": "thrive",
+      "name": "Thrive Capital",
+      "kind": "investor",
+      "blurb": "Josh Kushner's venture firm; a consistent OpenAI backer since 2023.",
+      "hq": "New York, USA",
+      "website": "https://thrivecap.com",
+      "weight": 40
+    },
+    {
+      "id": "china-ai-fund",
+      "name": "China National AI Industry Investment Fund",
+      "kind": "investor",
+      "blurb": "State-backed fund — the only DeepSeek investor holding direct voting rights.",
+      "hq": "Beijing, China",
+      "weight": 38
     },
     {
       "id": "openai-foundation",
       "name": "OpenAI Foundation",
       "kind": "foundation",
-      "blurb": "The non-profit that controls OpenAI Group PBC and holds roughly a 26% economic interest.",
+      "blurb": "The non-profit that controls OpenAI Group PBC, appoints its board and holds ~26% of the equity.",
       "hq": "San Francisco, USA",
-      "weight": 48
+      "weight": 50
     }
   ],
   "relationships": [
@@ -352,20 +409,14 @@
       "from": "openai-foundation",
       "to": "openai",
       "kind": "controls",
-      "stake": "~26% economic + control",
+      "stake": "~26% + board control",
       "voting": true,
-      "detail": "The non-profit OpenAI Foundation governs OpenAI Group PBC and holds ~26% of the equity after the October 2025 for-profit restructuring.",
+      "detail": "The non-profit OpenAI Foundation governs OpenAI Group PBC, appoints the entire board and holds ~26% of the equity after the October 2025 restructuring.",
       "asOf": "2025-10-28",
       "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "OpenAI completes restructure — CNBC",
-          "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html"
-        },
-        {
-          "title": "OpenAI grants Microsoft 27% stake — AOL/Reuters",
-          "url": "https://www.aol.com/finance/openai-completes-profit-restructuring-grants-161615860.html"
-        }
+        { "title": "OpenAI completes restructure — CNBC", "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html" },
+        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
       ]
     },
     {
@@ -375,18 +426,26 @@
       "kind": "equity",
       "stake": "~27%",
       "voting": false,
-      "detail": "Microsoft holds ~27% (26.79% fully diluted) of OpenAI Group PBC after the restructuring, plus IP/model access through 2032. The exclusive partnership and revenue-share ended in April 2026.",
+      "detail": "Microsoft is OpenAI's largest external shareholder (~26.79% at the October 2025 recap, since diluted by the 2026 round), with model access through 2032. The exclusive partnership and revenue-share ended in April 2026.",
       "asOf": "2025-10-28",
       "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Microsoft to get 27% of OpenAI — Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2025-10-28/microsoft-to-get-27-of-openai-access-to-ai-models-until-2032"
-        },
-        {
-          "title": "OpenAI and Microsoft end exclusive partnership — Forbes",
-          "url": "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/"
-        }
+        { "title": "Microsoft to get 27% of OpenAI — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2025-10-28/microsoft-to-get-27-of-openai-access-to-ai-models-until-2032" },
+        { "title": "OpenAI and Microsoft end exclusive partnership — Forbes", "url": "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/" }
+      ]
+    },
+    {
+      "id": "nvidia__openai",
+      "from": "nvidia",
+      "to": "openai",
+      "kind": "investment",
+      "stake": "$30B committed",
+      "voting": false,
+      "detail": "Nvidia committed roughly $30B to OpenAI's 2026 round, deepening the chipmaker's financial ties to its largest customer.",
+      "asOf": "2026-03-31",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
       ]
     },
     {
@@ -396,14 +455,25 @@
       "kind": "investment",
       "stake": "lead investor",
       "voting": false,
-      "detail": "SoftBank led OpenAI's record 2025–2026 financing rounds, which lifted the company's valuation past $800B.",
+      "detail": "SoftBank anchored OpenAI's record 2025–2026 financings, which closed at a $852B post-money valuation in March 2026.",
       "asOf": "2026-03-31",
       "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "OpenAI completes restructure — CNBC",
-          "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html"
-        }
+        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
+      ]
+    },
+    {
+      "id": "amazon__openai",
+      "from": "amazon",
+      "to": "openai",
+      "kind": "investment",
+      "stake": "2026 round",
+      "voting": false,
+      "detail": "Amazon entered OpenAI's cap table for the first time as one of the anchors of the 2026 mega-round.",
+      "asOf": "2026-03-31",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
       ]
     },
     {
@@ -413,48 +483,11 @@
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "Thrive Capital is among OpenAI's largest venture backers and has co-led recent rounds.",
-      "asOf": "2025-10-28",
-      "verified": "2025-11-15",
-      "sources": [
-        {
-          "title": "Who Owns OpenAI — ownership breakdown",
-          "url": "https://en.wikipedia.org/wiki/OpenAI"
-        }
-      ]
-    },
-    {
-      "id": "amazon__anthropic",
-      "from": "amazon",
-      "to": "anthropic",
-      "kind": "convertible",
-      "stake": "~$8B+ invested (non-voting)",
-      "voting": false,
-      "detail": "Amazon is Anthropic's largest investor and primary cloud partner. Its position (convertible notes + non-voting preferred) was reported worth ~$74B on paper by mid-2026, with commitments to invest much more.",
-      "asOf": "2026-06-04",
+      "detail": "Thrive Capital has backed OpenAI consistently since 2023, participating across multiple rounds and the employee secondary sale.",
+      "asOf": "2026-03-31",
       "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Amazon and Google's billions riding on Anthropic — Fortune",
-          "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/"
-        }
-      ]
-    },
-    {
-      "id": "google__anthropic",
-      "from": "google",
-      "to": "anthropic",
-      "kind": "equity",
-      "stake": "up to $40B committed (non-voting)",
-      "voting": false,
-      "detail": "In April 2026 Google committed up to $40B to Anthropic ($10B wired immediately at a ~$350B valuation), on top of earlier multi-billion investments. Google holds a minority, non-controlling stake.",
-      "asOf": "2026-04-24",
-      "verified": "2026-07-21",
-      "sources": [
-        {
-          "title": "Amazon and Google's billions riding on Anthropic — Fortune",
-          "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/"
-        }
+        { "title": "OpenAI takes stake in Thrive Holdings — Private Equity Insights", "url": "https://pe-insights.com/openai-strengthens-investor-alliance-with-stake-in-thrive-holdings/" }
       ]
     },
     {
@@ -464,14 +497,39 @@
       "kind": "subsidiary",
       "stake": "100%",
       "voting": true,
-      "detail": "Google DeepMind is a wholly-owned division of Alphabet, formed by merging DeepMind and Google Brain in 2023.",
+      "detail": "Google DeepMind is a wholly-owned division of Alphabet, formed by merging DeepMind and Google Brain in April 2023.",
       "asOf": "2023-04-20",
-      "verified": "2025-11-15",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Google DeepMind — overview",
-          "url": "https://en.wikipedia.org/wiki/Google_DeepMind"
-        }
+        { "title": "Google DeepMind — official site", "url": "https://deepmind.google/about/" }
+      ]
+    },
+    {
+      "id": "amazon__anthropic",
+      "from": "amazon",
+      "to": "anthropic",
+      "kind": "convertible",
+      "stake": "~$8B+ (non-voting)",
+      "voting": false,
+      "detail": "Amazon is Anthropic's largest investor and primary cloud partner. Its position (convertible notes plus non-voting preferred) was reported worth ~$74B on paper by mid-2026.",
+      "asOf": "2026-06-04",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
+      ]
+    },
+    {
+      "id": "google__anthropic",
+      "from": "google",
+      "to": "anthropic",
+      "kind": "equity",
+      "stake": "up to $40B (non-voting)",
+      "voting": false,
+      "detail": "In April 2026 Google committed up to $40B to Anthropic, with $10B wired immediately at a ~$350B valuation, on top of earlier multi-billion investments. The stake is minority and non-controlling.",
+      "asOf": "2026-04-24",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
       ]
     },
     {
@@ -481,14 +539,12 @@
       "kind": "subsidiary",
       "stake": "100%",
       "voting": true,
-      "detail": "Meta Superintelligence Labs is a wholly-owned Meta organization, reorganized in 2025 under Alexandr Wang.",
+      "detail": "Meta Superintelligence Labs is a wholly-owned Meta division, founded 30 June 2025 under chief AI officer Alexandr Wang and restructured again in March 2026.",
       "asOf": "2025-06-30",
-      "verified": "2025-11-15",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Meta takes 49% stake in Scale AI, Wang joins — CDO Magazine",
-          "url": "https://www.cdomagazine.tech/aiml/meta-takes-49-stake-in-scale-ai-ceo-alexandr-wang-joins-to-boost-ai-push"
-        }
+        { "title": "Meta Superintelligence Labs — overview", "url": "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs" },
+        { "title": "Meta debuts first major AI model since Wang deal — CNBC", "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html" }
       ]
     },
     {
@@ -502,14 +558,7 @@
       "asOf": "2025-06-12",
       "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Scale AI founder Wang exits for Meta — CNBC",
-          "url": "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html"
-        },
-        {
-          "title": "Meta takes 49% stake in Scale AI — CDO Magazine",
-          "url": "https://www.cdomagazine.tech/aiml/meta-takes-49-stake-in-scale-ai-ceo-alexandr-wang-joins-to-boost-ai-push"
-        }
+        { "title": "Scale AI founder Wang exits for Meta — CNBC", "url": "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html" }
       ]
     },
     {
@@ -517,58 +566,14 @@
       "from": "spacex",
       "to": "xai",
       "kind": "controls",
-      "stake": "absorbed (~$250B of a ~$1.25T combined entity)",
+      "stake": "absorbed (~$250B of ~$1.25T)",
       "voting": true,
-      "detail": "SpaceX absorbed xAI in early 2026 in the largest merger on record, a combined ~$1.25T entity controlled by Elon Musk. xAI had merged with X (Twitter) in March 2025.",
+      "detail": "SpaceX absorbed xAI in February 2026 in the largest merger on record — a combined ~$1.25T entity controlled by Elon Musk. xAI had merged with X in March 2025.",
       "asOf": "2026-02-02",
       "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC",
-          "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html"
-        },
-        {
-          "title": "SpaceX combines with xAI at $1.25T — Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo"
-        }
-      ]
-    },
-    {
-      "id": "asml__mistral",
-      "from": "asml",
-      "to": "mistral",
-      "kind": "equity",
-      "stake": "~11%",
-      "voting": false,
-      "detail": "ASML led Mistral's €1.7B Series C in September 2025 with ~€1.3B, taking an ~11% stake (its largest shareholder) and a seat on Mistral's strategic committee. Valuation ~€11.7B.",
-      "asOf": "2025-09-09",
-      "verified": "2026-07-21",
-      "sources": [
-        {
-          "title": "Mistral valued at $14B as ASML takes major stake — CNBC",
-          "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html"
-        },
-        {
-          "title": "ASML–Mistral strategic partnership — ASML",
-          "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
-        }
-      ]
-    },
-    {
-      "id": "nvidia__mistral",
-      "from": "nvidia",
-      "to": "mistral",
-      "kind": "investment",
-      "stake": "minority",
-      "voting": false,
-      "detail": "Nvidia is a recurring investor in Mistral, participating in its Series B and Series C rounds.",
-      "asOf": "2025-09-09",
-      "verified": "2025-11-15",
-      "sources": [
-        {
-          "title": "Mistral AI — investors",
-          "url": "https://en.wikipedia.org/wiki/Mistral_AI"
-        }
+        { "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC", "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html" },
+        { "title": "SpaceX combines with xAI at $1.25T — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo" }
       ]
     },
     {
@@ -576,16 +581,56 @@
       "from": "high-flyer",
       "to": "deepseek",
       "kind": "controls",
-      "stake": "founder / controlling owner",
+      "stake": "founder / control",
       "voting": true,
-      "detail": "DeepSeek was founded and is funded and controlled by the Chinese quant hedge fund High-Flyer; it has taken no external venture capital.",
-      "asOf": "2023-07-17",
-      "verified": "2025-11-15",
+      "detail": "DeepSeek was created and wholly funded by hedge fund High-Flyer. Founder Liang Wenfeng retains ~78% control, and 2026 investors were routed through a partnership he controls, insulating him from outside shareholders.",
+      "asOf": "2026-06-16",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "DeepSeek — background",
-          "url": "https://en.wikipedia.org/wiki/DeepSeek"
-        }
+        { "title": "DeepSeek raises $7.4B with unusual control structure", "url": "https://chinabizinsider.com/deepseek-closes-7-4-billion-debut-funding-round-under-founder-control-structure/" },
+        { "title": "DeepSeek just raised $7.4 billion — Forbes", "url": "https://www.forbes.com/sites/anishasircar/2026/06/17/deepseek-just-raised-74-billion-heres-the-catch/" }
+      ]
+    },
+    {
+      "id": "tencent__deepseek",
+      "from": "tencent",
+      "to": "deepseek",
+      "kind": "investment",
+      "stake": "co-lead (non-voting)",
+      "voting": false,
+      "detail": "Tencent co-led DeepSeek's first external round (~$7.4B / ¥50B+) in June 2026 at a reported $50–59B valuation, but holds no voting rights and is locked up for five years.",
+      "asOf": "2026-06-16",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "DeepSeek just raised $7.4 billion — Forbes", "url": "https://www.forbes.com/sites/anishasircar/2026/06/17/deepseek-just-raised-74-billion-heres-the-catch/" }
+      ]
+    },
+    {
+      "id": "catl__deepseek",
+      "from": "catl",
+      "to": "deepseek",
+      "kind": "investment",
+      "stake": "co-lead (non-voting)",
+      "voting": false,
+      "detail": "Battery maker CATL co-led DeepSeek's 2026 round through the founder-controlled partnership, with no voting rights and a five-year lockup.",
+      "asOf": "2026-06-16",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "DeepSeek raises $7.4B with unusual control structure", "url": "https://chinabizinsider.com/deepseek-closes-7-4-billion-debut-funding-round-under-founder-control-structure/" }
+      ]
+    },
+    {
+      "id": "china-ai-fund__deepseek",
+      "from": "china-ai-fund",
+      "to": "deepseek",
+      "kind": "equity",
+      "stake": "¥1B direct",
+      "voting": true,
+      "detail": "China's state National AI Industry Investment Fund invested ¥1B directly — the only DeepSeek investor with voting rights and no lockup.",
+      "asOf": "2026-06-16",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "DeepSeek raises $7.4B with unusual control structure", "url": "https://chinabizinsider.com/deepseek-closes-7-4-billion-debut-funding-round-under-founder-control-structure/" }
       ]
     },
     {
@@ -593,16 +638,41 @@
       "from": "greenoaks",
       "to": "ssi",
       "kind": "investment",
-      "stake": "lead investor",
+      "stake": "lead ($500M)",
       "voting": false,
-      "detail": "Greenoaks led financing for Safe Superintelligence, which has raised at a multi-billion-dollar valuation despite having no product.",
-      "asOf": "2025-04-01",
-      "verified": "2025-11-15",
+      "detail": "Greenoaks led SSI's ~$2B round in April 2025 at a $32B valuation, contributing $500M.",
+      "asOf": "2025-04-12",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Safe Superintelligence — funding",
-          "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
-        }
+        { "title": "SSI raises $2B at $32B valuation — TechCrunch", "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b" }
+      ]
+    },
+    {
+      "id": "google__ssi",
+      "from": "google",
+      "to": "ssi",
+      "kind": "investment",
+      "stake": "minority",
+      "voting": false,
+      "detail": "Alphabet invested in SSI's 2025 round, paired with Google Cloud becoming SSI's primary TPU compute supplier.",
+      "asOf": "2025-04-12",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Ilya Sutskever's SSI financial breakdown — StartupHub", "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06" }
+      ]
+    },
+    {
+      "id": "nvidia__ssi",
+      "from": "nvidia",
+      "to": "ssi",
+      "kind": "investment",
+      "stake": "minority",
+      "voting": false,
+      "detail": "Nvidia joined SSI's 2025 round, keeping the dominant chip vendor close to a marquee lab.",
+      "asOf": "2025-04-12",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Ilya Sutskever's SSI financial breakdown — StartupHub", "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06" }
       ]
     },
     {
@@ -612,14 +682,25 @@
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "Andreessen Horowitz is among the venture backers of Safe Superintelligence.",
-      "asOf": "2024-09-01",
-      "verified": "2025-11-15",
+      "detail": "Andreessen Horowitz backed SSI's $1B seed and returned for the 2025 round.",
+      "asOf": "2025-04-12",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Safe Superintelligence — funding",
-          "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence"
-        }
+        { "title": "SSI raises $2B at $32B valuation — TechCrunch", "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b" }
+      ]
+    },
+    {
+      "id": "lightspeed__ssi",
+      "from": "lightspeed",
+      "to": "ssi",
+      "kind": "investment",
+      "stake": "minority",
+      "voting": false,
+      "detail": "Lightspeed returned for SSI's 2025 round alongside DST Global.",
+      "asOf": "2025-04-12",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Ilya Sutskever's SSI financial breakdown — StartupHub", "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06" }
       ]
     },
     {
@@ -627,50 +708,56 @@
       "from": "a16z",
       "to": "thinking-machines",
       "kind": "investment",
-      "stake": "lead investor",
+      "stake": "lead ($2B seed)",
       "voting": false,
-      "detail": "Andreessen Horowitz led Thinking Machines Lab's very large seed round in 2025.",
-      "asOf": "2025-07-01",
-      "verified": "2025-11-15",
+      "detail": "Andreessen Horowitz led Thinking Machines Lab's $2B seed — the largest in history — at a $12B valuation in July 2025.",
+      "asOf": "2025-07-15",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Thinking Machines Lab — funding",
-          "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
-        }
+        { "title": "Thinking Machines Lab worth $12B in seed round — TechCrunch", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/" }
       ]
     },
     {
-      "id": "nvidia__cohere",
+      "id": "nvidia__thinking-machines",
       "from": "nvidia",
-      "to": "cohere",
+      "to": "thinking-machines",
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "Nvidia is a strategic investor in Cohere.",
-      "asOf": "2024-07-01",
-      "verified": "2025-11-15",
+      "detail": "Nvidia joined the $2B seed alongside Accel, ServiceNow, Cisco, AMD and Jane Street, and has since made multi-billion infrastructure commitments.",
+      "asOf": "2025-07-15",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Cohere — investors",
-          "url": "https://en.wikipedia.org/wiki/Cohere"
-        }
+        { "title": "Thinking Machines Lab worth $12B in seed round — TechCrunch", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/" }
       ]
     },
     {
-      "id": "salesforce__cohere",
-      "from": "salesforce",
-      "to": "cohere",
+      "id": "asml__mistral",
+      "from": "asml",
+      "to": "mistral",
+      "kind": "equity",
+      "stake": "~11%",
+      "voting": false,
+      "detail": "ASML led Mistral's €1.7B Series C in September 2025 with ~€1.3B, becoming its largest shareholder at ~11% and taking a seat on the strategic committee.",
+      "asOf": "2025-09-09",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Mistral valued at $14B as ASML takes major stake — CNBC", "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html" },
+        { "title": "ASML–Mistral strategic partnership — ASML", "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership" }
+      ]
+    },
+    {
+      "id": "nvidia__mistral",
+      "from": "nvidia",
+      "to": "mistral",
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "Salesforce Ventures is a long-standing strategic investor in Cohere.",
-      "asOf": "2024-07-01",
-      "verified": "2025-11-15",
+      "detail": "Nvidia is a recurring Mistral investor, committing again in the 2025 Series C alongside a16z, DST, General Catalyst, Index, Lightspeed and Bpifrance.",
+      "asOf": "2025-09-09",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Cohere — investors",
-          "url": "https://en.wikipedia.org/wiki/Cohere"
-        }
+        { "title": "Mistral raises €1.7B — Mistral AI", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/" }
       ]
     },
     {
@@ -680,14 +767,11 @@
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "Nvidia is among Perplexity's strategic investors.",
-      "asOf": "2024-04-01",
-      "verified": "2025-11-15",
+      "detail": "Nvidia is among Perplexity's strategic investors; the company was valued at ~$23B in its January 2026 round.",
+      "asOf": "2026-01-09",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Perplexity AI — investors",
-          "url": "https://en.wikipedia.org/wiki/Perplexity_AI"
-        }
+        { "title": "Perplexity AI valuation 2026 — ValueAdd VC", "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr" }
       ]
     },
     {
@@ -697,48 +781,82 @@
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "SoftBank has invested in Perplexity via its Vision Fund.",
-      "asOf": "2024-12-01",
-      "verified": "2025-11-15",
+      "detail": "SoftBank's Vision Fund 2 is a Perplexity backer, alongside Jeff Bezos, IVP, Accel and NEA.",
+      "asOf": "2026-01-09",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Perplexity AI — investors",
-          "url": "https://en.wikipedia.org/wiki/Perplexity_AI"
-        }
+        { "title": "Perplexity AI valuation 2026 — ValueAdd VC", "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr" }
       ]
     },
     {
-      "id": "google__character-ai",
-      "from": "google",
-      "to": "character-ai",
-      "kind": "licensing",
-      "stake": "tech license + talent",
+      "id": "sequoia__elevenlabs",
+      "from": "sequoia",
+      "to": "elevenlabs",
+      "kind": "investment",
+      "stake": "lead ($500M)",
       "voting": false,
-      "detail": "In August 2024 Google struck a ~$2.7B deal to license Character.AI's technology and re-hire co-founder Noam Shazeer and other staff, while Character.AI stayed independent.",
-      "asOf": "2024-08-02",
-      "verified": "2025-11-15",
+      "detail": "Sequoia led ElevenLabs' $500M Series D in February 2026 at an $11B valuation, taking a board seat.",
+      "asOf": "2026-02-04",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Character.ai — Google deal",
-          "url": "https://en.wikipedia.org/wiki/Character.ai"
-        }
+        { "title": "ElevenLabs raises $500M at $11B valuation — TechCrunch", "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/" },
+        { "title": "ElevenLabs Series D — company blog", "url": "https://elevenlabs.io/blog/series-d" }
       ]
     },
     {
-      "id": "microsoft__inflection",
-      "from": "microsoft",
-      "to": "inflection",
-      "kind": "acqui-hire",
-      "stake": "team acqui-hire",
+      "id": "a16z__elevenlabs",
+      "from": "a16z",
+      "to": "elevenlabs",
+      "kind": "investment",
+      "stake": "minority",
       "voting": false,
-      "detail": "In March 2024 Microsoft hired co-founders Mustafa Suleyman and Karén Simonyan plus most of Inflection's staff to form Microsoft AI, paying a licensing fee; Inflection continued as an enterprise company.",
-      "asOf": "2024-03-19",
-      "verified": "2025-11-15",
+      "detail": "Andreessen Horowitz quadrupled down in the 2026 Series D with super pro-rata participation, alongside ICONIQ.",
+      "asOf": "2026-02-04",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Inflection AI — Microsoft deal",
-          "url": "https://en.wikipedia.org/wiki/Inflection_AI"
-        }
+        { "title": "ElevenLabs Series D — company blog", "url": "https://elevenlabs.io/blog/series-d" }
+      ]
+    },
+    {
+      "id": "nvidia__elevenlabs",
+      "from": "nvidia",
+      "to": "elevenlabs",
+      "kind": "investment",
+      "stake": "minority",
+      "voting": false,
+      "detail": "Nvidia joined the third close of ElevenLabs' Series D in May 2026, with BlackRock, Wellington, Salesforce and Santander.",
+      "asOf": "2026-05-01",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Nvidia-backed ElevenLabs hits $11B valuation — CNBC", "url": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html" }
+      ]
+    },
+    {
+      "id": "nvidia__cohere",
+      "from": "nvidia",
+      "to": "cohere",
+      "kind": "investment",
+      "stake": "minority",
+      "voting": false,
+      "detail": "Nvidia has backed Cohere since its 2023 Series C and returned for the $500M round at a $6.8B valuation.",
+      "asOf": "2026-03-01",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Cohere hits $6.8B valuation as AMD, Nvidia, Salesforce double down — TechCrunch", "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down" }
+      ]
+    },
+    {
+      "id": "salesforce__cohere",
+      "from": "salesforce",
+      "to": "cohere",
+      "kind": "investment",
+      "stake": "minority",
+      "voting": false,
+      "detail": "Salesforce Ventures has backed Cohere since 2023 and re-upped in the round that valued it at $6.8B.",
+      "asOf": "2026-03-01",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Cohere hits $6.8B valuation — TechCrunch", "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down" }
       ]
     },
     {
@@ -746,16 +864,13 @@
       "from": "salesforce",
       "to": "hugging-face",
       "kind": "investment",
-      "stake": "minority",
+      "stake": "lead",
       "voting": false,
-      "detail": "Salesforce led Hugging Face's Series D; the round also included Google, Amazon, Nvidia and others.",
+      "detail": "Salesforce led Hugging Face's $235M Series D at a $4.5B valuation.",
       "asOf": "2023-08-24",
-      "verified": "2025-11-15",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Hugging Face — investors",
-          "url": "https://en.wikipedia.org/wiki/Hugging_Face"
-        }
+        { "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC", "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html" }
       ]
     },
     {
@@ -765,31 +880,81 @@
       "kind": "investment",
       "stake": "minority",
       "voting": false,
-      "detail": "Nvidia participated in Hugging Face's Series D financing.",
+      "detail": "Nvidia joined Hugging Face's Series D alongside Google, Amazon, AMD, Intel, IBM and Qualcomm.",
       "asOf": "2023-08-24",
-      "verified": "2025-11-15",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "Hugging Face — investors",
-          "url": "https://en.wikipedia.org/wiki/Hugging_Face"
-        }
+        { "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC", "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html" }
       ]
     },
     {
-      "id": "a16z__elevenlabs",
-      "from": "a16z",
-      "to": "elevenlabs",
+      "id": "google__hugging-face",
+      "from": "google",
+      "to": "hugging-face",
       "kind": "investment",
-      "stake": "lead investor",
+      "stake": "minority",
       "voting": false,
-      "detail": "Andreessen Horowitz has led financing rounds for ElevenLabs.",
-      "asOf": "2025-01-01",
-      "verified": "2025-11-15",
+      "detail": "Google participated in the Series D that valued Hugging Face at $4.5B.",
+      "asOf": "2023-08-24",
+      "verified": "2026-07-21",
       "sources": [
-        {
-          "title": "ElevenLabs — investors",
-          "url": "https://en.wikipedia.org/wiki/ElevenLabs"
-        }
+        { "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC", "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html" }
+      ]
+    },
+    {
+      "id": "microsoft__inflection",
+      "from": "microsoft",
+      "to": "inflection",
+      "kind": "acqui-hire",
+      "stake": "~$650M licence",
+      "voting": false,
+      "detail": "Microsoft paid ~$650M for a non-exclusive licence to Inflection's models and hired ~70 staff including Mustafa Suleyman and Karén Simonyan. It bought no equity — Inflection remains independent.",
+      "asOf": "2024-03-21",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Microsoft to pay Inflection AI $650M — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2024-03-21/microsoft-to-pay-inflection-ai-650-million-after-scooping-up-most-of-staff" }
+      ]
+    },
+    {
+      "id": "google__character-ai",
+      "from": "google",
+      "to": "character-ai",
+      "kind": "licensing",
+      "stake": "$2.7B licence",
+      "voting": false,
+      "detail": "Google paid ~$2.7B in August 2024 for a non-exclusive licence to Character.AI's technology and to re-hire co-founder Noam Shazeer. The structure drew DOJ antitrust scrutiny; Character.AI stayed independent.",
+      "asOf": "2024-08-02",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Google's $2.7B Character.AI deal draws DOJ attention — Calcalist", "url": "https://www.calcalistech.com/ctechnews/article/sy06wllflg" }
+      ]
+    },
+    {
+      "id": "coatue__stability-ai",
+      "from": "coatue",
+      "to": "stability-ai",
+      "kind": "investment",
+      "stake": "co-lead",
+      "voting": false,
+      "detail": "Coatue co-led Stability AI's 2024 recapitalisation, which cleared the company's debt under new CEO Prem Akkaraju at a ~$1B valuation.",
+      "asOf": "2024-06-25",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Stability AI funding & investors — Sacra", "url": "https://sacra.com/c/stability-ai/" }
+      ]
+    },
+    {
+      "id": "lightspeed__stability-ai",
+      "from": "lightspeed",
+      "to": "stability-ai",
+      "kind": "investment",
+      "stake": "co-lead",
+      "voting": false,
+      "detail": "Lightspeed co-led the 2024 round alongside Coatue, Greycroft, Sound Ventures and angels including Eric Schmidt and Sean Parker.",
+      "asOf": "2024-06-25",
+      "verified": "2026-07-21",
+      "sources": [
+        { "title": "Stability AI funding & investors — Sacra", "url": "https://sacra.com/c/stability-ai/" }
       ]
     }
   ]

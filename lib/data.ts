@@ -36,9 +36,15 @@ export type Freshness = "fresh" | "aging" | "stale";
 
 export function freshness(r: Relationship, now = new Date()): Freshness {
   const days = verificationAgeDays(r, now);
-  if (days <= 90) return "fresh";
-  if (days <= 240) return "aging";
+  if (days <= 180) return "fresh";
+  if (days <= 365) return "aging";
   return "stale";
+}
+
+/** "Jul 2026" — friendlier than a raw ISO date in the UI. */
+export function shortDate(iso: string): string {
+  const d = new Date(iso + "T00:00:00Z");
+  return d.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
 }
 
 export const RELATION_LABELS: Record<Relationship["kind"], string> = {
