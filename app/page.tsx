@@ -2,81 +2,125 @@ import GraphSection from "@/components/GraphSection";
 import OwnershipTable from "@/components/OwnershipTable";
 import { data, entities, relationships } from "@/lib/data";
 
-const LEGEND: { label: string; color: string }[] = [
-  { label: "Control / wholly owned", color: "#d98a1f" },
-  { label: "Equity / convertible", color: "#4f5bd5" },
-  { label: "Investor", color: "#159a6b" },
-  { label: "Acqui-hire / licensing", color: "#b5449e" },
+const LEGEND: { label: string; varName: string }[] = [
+  { label: "Control / wholly owned", varName: "--tie-control" },
+  { label: "Equity / convertible", varName: "--tie-equity" },
+  { label: "Investor", varName: "--tie-investor" },
+  { label: "Acqui-hire / licensing", varName: "--tie-talent" },
 ];
+
+function Stat({ figure, label }: { figure: string; label: string }) {
+  return (
+    <div className="pr-8 last:pr-0">
+      <div className="display tnum text-2xl text-[var(--ink)] sm:text-[28px]">{figure}</div>
+      <div className="eyebrow mt-1">{label}</div>
+    </div>
+  );
+}
 
 export default function Home() {
   const labCount = entities.filter((e) => e.kind === "lab").length;
   const backerCount = entities.filter((e) => e.kind !== "lab").length;
+  const updated = new Date(data.updatedAt + "T00:00:00Z").toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
-      <header className="mb-8">
-        <div className="flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-              AI Ownership Map
-            </h1>
-            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-[var(--muted)]">
-              Who really owns and bankrolls the companies building AI — the big
-              labs and the smaller specialists. Every relationship is
-              source-linked and carries a &ldquo;last verified&rdquo; date, and a
-              scheduled monitor drafts updates for review whenever a new deal is
-              struck.
-            </p>
-          </div>
-          <div className="text-right text-xs text-[var(--muted)]">
-            <div>
-              <span className="font-semibold text-[var(--text)]">{labCount}</span> companies ·{" "}
-              <span className="font-semibold text-[var(--text)]">{backerCount}</span> backers ·{" "}
-              <span className="font-semibold text-[var(--text)]">{relationships.length}</span> ties
-            </div>
-            <div className="mt-1">Data updated {data.updatedAt}</div>
+    <main className="mx-auto max-w-[1240px] px-6 py-10 sm:px-10 sm:py-14">
+      {/* ---------- masthead ---------- */}
+      <header>
+        <div className="eyebrow">Ownership &amp; Capital Structure · AI Sector</div>
+        <h1 className="display mt-3 text-[42px] leading-[1.02] text-[var(--ink)] sm:text-[58px]">
+          The AI Ownership Map
+        </h1>
+        <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-[var(--ink-2)]">
+          Who owns, controls and bankrolls the companies building artificial
+          intelligence. Every relationship below is source-linked and carries the
+          date it was last verified.
+        </p>
+
+        <div className="mt-8 flex flex-wrap items-end gap-y-6 border-y border-[var(--rule)] py-5">
+          <Stat figure={String(labCount)} label="Companies" />
+          <Stat figure={String(backerCount)} label="Owners &amp; backers" />
+          <Stat figure={String(relationships.length)} label="Ownership ties" />
+          <div className="ml-auto text-right">
+            <div className="eyebrow">Data as at</div>
+            <div className="tnum mt-1 text-sm font-semibold text-[var(--ink)]">{updated}</div>
           </div>
         </div>
+      </header>
 
-        <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2">
+      {/* ---------- exhibit 1: the flow ---------- */}
+      <section className="mt-12">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="display text-[26px] text-[var(--ink)]">
+            <span className="eyebrow mr-3 align-middle">Exhibit 1</span>
+            Who owns whom
+          </h2>
+        </div>
+
+        <div className="mt-3 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-[var(--rule)] pb-3">
           {LEGEND.map((l) => (
-            <div key={l.label} className="flex items-center gap-2 text-xs text-[var(--muted)]">
+            <div key={l.label} className="flex items-center gap-2 text-[12px] text-[var(--ink-2)]">
               <span
-                className="inline-block h-2.5 w-5 rounded-full"
-                style={{ background: l.color }}
+                className="inline-block h-[3px] w-6 rounded-full"
+                style={{ background: `var(${l.varName})` }}
               />
               {l.label}
             </div>
           ))}
-          <span className="text-xs text-[var(--muted)]">· largest companies listed first</span>
         </div>
-      </header>
 
-      <section className="mb-12 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-soft)]">
-        <GraphSection />
+        <div className="mt-4 overflow-hidden rounded-sm border border-[var(--rule)] bg-[var(--paper-2)]">
+          <GraphSection />
+        </div>
+        <p className="mt-3 text-[12px] leading-relaxed text-[var(--muted)]">
+          Ownership flows left to right. Companies are ordered by scale, largest
+          first; backers are ordered to minimise crossing lines. Stakes for
+          private companies are frequently undisclosed and figures shown are
+          approximate.
+        </p>
       </section>
 
-      <div className="mb-4 flex items-baseline justify-between">
-        <h2 className="text-xl font-bold">Ownership detail</h2>
-        <span className="text-xs text-[var(--muted)]">
-          Badges show how recently each tie was verified
-        </span>
-      </div>
-      <OwnershipTable />
+      {/* ---------- exhibit 2: the detail ---------- */}
+      <section className="mt-16">
+        <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-[var(--rule)] pb-3">
+          <h2 className="display text-[26px] text-[var(--ink)]">
+            <span className="eyebrow mr-3 align-middle">Exhibit 2</span>
+            Ownership detail
+          </h2>
+          <span className="text-[12px] text-[var(--muted)]">
+            Each tie shows its stake, sources and verification date
+          </span>
+        </div>
+        <div className="mt-6">
+          <OwnershipTable />
+        </div>
+      </section>
 
-      <footer className="mt-14 border-t border-[var(--border)] pt-6 text-xs leading-relaxed text-[var(--muted)]">
-        <p>
-          Informational only, compiled from public reporting — not investment
-          advice, and stakes for private companies are frequently undisclosed or
-          approximate. Each entry links its sources; verify before relying on any
-          figure.
-        </p>
-        <p className="mt-2">
-          Updates are proposed by an automated monitor and published only after
-          human review. See <code>scripts/monitor.mjs</code> and{" "}
-          <code>.github/workflows/monitor.yml</code>.
-        </p>
+      {/* ---------- source note ---------- */}
+      <footer className="mt-16 border-t border-[var(--rule)] pt-6">
+        <div className="eyebrow">Source note &amp; disclaimer</div>
+        <div className="mt-3 grid gap-4 text-[12px] leading-relaxed text-[var(--muted)] sm:grid-cols-2">
+          <p>
+            Compiled from public reporting; each relationship links its
+            underlying sources. Stakes in private companies are often
+            undisclosed, reported as ranges, or measured on different bases
+            (fully diluted vs. as-converted), so all figures should be treated as
+            approximate. This page is informational only and is not investment
+            advice.
+          </p>
+          <p>
+            Changes are surfaced by a scheduled monitor that searches for new
+            ownership, investment and M&amp;A activity and drafts proposed
+            revisions. No revision is published without human review, so the
+            verification date on each row reflects a person having checked it
+            against the cited sources.
+          </p>
+        </div>
       </footer>
     </main>
   );

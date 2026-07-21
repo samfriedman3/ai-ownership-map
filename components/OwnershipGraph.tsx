@@ -21,18 +21,18 @@ import type { Entity, RelationKind } from "@/lib/types";
 // ordered by the average position of what they own, which keeps the connecting
 // lines from crossing into a hairball.
 
-const NODE_W = 236;
-const ROW_H = 92;
+const NODE_W = 244;
+const ROW_H = 78;
 const COL_GAP = 880;
 
 const EDGE_COLOR: Record<RelationKind, string> = {
-  controls: "#d98a1f",
-  subsidiary: "#d98a1f",
-  equity: "#4f5bd5",
-  convertible: "#4f5bd5",
-  investment: "#159a6b",
-  "acqui-hire": "#b5449e",
-  licensing: "#b5449e",
+  controls: "#9a6a2f",
+  subsidiary: "#9a6a2f",
+  equity: "#1b4f8a",
+  convertible: "#1b4f8a",
+  investment: "#3e7c6a",
+  "acqui-hire": "#8c4a5f",
+  licensing: "#8c4a5f",
 };
 
 function fontFor(weight = 20) {
@@ -188,10 +188,10 @@ export default function OwnershipGraph() {
           strokeWidth: active ? 2.2 : 1.2,
           opacity: active ? 0.8 : 0.1,
         },
-        labelStyle: { fill: "#1a1e2e", fontSize: 11, fontWeight: 700 },
-        labelBgStyle: { fill: "#ffffff", opacity: 0.96 },
-        labelBgPadding: [5, 3] as [number, number],
-        labelBgBorderRadius: 5,
+        labelStyle: { fill: "#14181f", fontSize: 11, fontWeight: 700 },
+        labelBgStyle: { fill: "#ffffff", opacity: 0.97, stroke: "#e4e1da" },
+        labelBgPadding: [6, 3] as [number, number],
+        labelBgBorderRadius: 3,
         labelShowBg: true,
       } satisfies Edge;
     });
@@ -207,29 +207,29 @@ export default function OwnershipGraph() {
 
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--border)] px-4 py-2.5">
-        <p className="text-xs text-[var(--muted)]">
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--rule)] bg-[var(--paper)] px-4 py-3">
+        <p className="text-[12px] text-[var(--muted)]">
           {focus
-            ? "Showing one company's ties — click it again (or the background) to reset."
-            : "Read left → right: who owns or funds whom. Click any box to isolate its ties."}
+            ? "Isolating one entity's ties — click it again, or the background, to reset."
+            : "Ownership flows left → right. Click any box to isolate its ties."}
         </p>
-        <div className="flex gap-1.5">
+        <div className="flex overflow-hidden rounded-sm border border-[var(--rule-strong)]">
           <button
             onClick={() => setShowAll(false)}
-            className={`rounded-full border px-3 py-1 text-xs font-semibold transition ${!showAll ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]" : "border-[var(--border)] text-[var(--muted)] hover:text-[var(--text)]"}`}
+            className={`px-3 py-1 text-[11px] font-bold uppercase tracking-wider transition ${!showAll ? "bg-[var(--navy)] text-white" : "bg-[var(--paper)] text-[var(--muted)] hover:text-[var(--ink)]"}`}
           >
-            Biggest 8
+            Largest 8
           </button>
           <button
             onClick={() => setShowAll(true)}
-            className={`rounded-full border px-3 py-1 text-xs font-semibold transition ${showAll ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]" : "border-[var(--border)] text-[var(--muted)] hover:text-[var(--text)]"}`}
+            className={`border-l border-[var(--rule-strong)] px-3 py-1 text-[11px] font-bold uppercase tracking-wider transition ${showAll ? "bg-[var(--navy)] text-white" : "bg-[var(--paper)] text-[var(--muted)] hover:text-[var(--ink)]"}`}
           >
-            All {hiddenCount > 0 ? `(+${hiddenCount} more)` : ""}
+            All {hiddenCount > 0 ? `+${hiddenCount}` : ""}
           </button>
         </div>
       </div>
 
-      <div style={{ width: "100%", height: 620 }}>
+      <div className="h-[clamp(620px,86vh,1040px)] w-full">
         <ReactFlow
           nodes={nodes}
           edges={edges}
@@ -242,7 +242,7 @@ export default function OwnershipGraph() {
           maxZoom={1.6}
           nodesConnectable={false}
         >
-          <Background variant={BackgroundVariant.Dots} gap={24} size={1} color="#dde2f0" />
+          <Background variant={BackgroundVariant.Dots} gap={26} size={1} color="#e0ddd5" />
           <Controls showInteractive={false} />
         </ReactFlow>
       </div>
