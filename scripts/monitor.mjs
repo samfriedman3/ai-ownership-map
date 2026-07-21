@@ -24,7 +24,7 @@ const root = join(__dirname, "..");
 const dataPath = join(root, "data", "ownership.json");
 const proposalsDir = join(root, "data", "proposals");
 
-const MODEL = process.env.MONITOR_MODEL || "claude-sonnet-5";
+const MODEL = process.env.MONITOR_MODEL || "claude-opus-4-8";
 const LOOKBACK = Number(process.env.MONITOR_LOOKBACK_DAYS || 45);
 
 if (!process.env.ANTHROPIC_API_KEY) {
@@ -93,12 +93,21 @@ console.log(`Running monitor with ${MODEL} (lookback ${LOOKBACK}d)…`);
 
 const client = new Anthropic();
 
+// Adaptive thinking must be set explicitly — omitting it runs without thinking.
+// web_search_20260209 is the current tool version (adds dynamic filtering).
 const res = await client.messages.create({
   model: MODEL,
-  max_tokens: 4000,
+  max_tokens: 16000,
+  thinking: { type: "adaptive" },
+  output_config: { effort: "high" },
   messages: [{ role: "user", content: prompt }],
-  tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 8 }],
+  tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 12 }],
 });
+
+if (res.stop_reason === "refusal") {
+  console.error("Request was declined by safety classifiers; nothing written.");
+  process.exit(1);
+}
 
 // The final text block holds the JSON answer.
 const text = res.content
@@ -109,10 +118,14 @@ const text = res.content
 
 let parsed;
 try {
-  const jsonStr = text.startsWith("{") ? text : text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1);
-  parsed = JSON.parse(jsonStr);
-} catch {
-  console.error("Could not parse model output as JSON. Raw output:\n" + text);
+  // Tolerate markdown fences or stray prose around the JSON object.
+  const unfenced = text.replace(/^```(?:json)?/gm, "").replace(/```$/gm, "").trim();
+  const start = unfenced.indexOf("{");
+  const end = unfenced.lastIndexOf("}");
+  if (start === -1 || end === -1) throw new Error("no JSON object found");
+  parsed = JSON.parse(unfenced.slice(start, end + 1));
+} catch (e) {
+  console.error(`Could not parse model output as JSON (${e.message}). Raw output:\n${text}`);
   process.exit(1);
 }
 
