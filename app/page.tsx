@@ -2,11 +2,12 @@ import GraphSection from "@/components/GraphSection";
 import OwnershipTable from "@/components/OwnershipTable";
 import { data, entities, relationships } from "@/lib/data";
 
-const LEGEND: { label: string; varName: string }[] = [
-  { label: "Control / wholly owned", varName: "--tie-control" },
-  { label: "Equity / convertible", varName: "--tie-equity" },
-  { label: "Investor", varName: "--tie-investor" },
-  { label: "Acqui-hire / licensing", varName: "--tie-talent" },
+const LEGEND: { label: string; color: string; dashed?: boolean }[] = [
+  { label: "Control / wholly owned", color: "var(--tie-control)" },
+  { label: "Equity / convertible", color: "var(--tie-equity)" },
+  { label: "Investor", color: "var(--tie-investor)" },
+  { label: "Acqui-hire / licensing", color: "var(--tie-talent)" },
+  { label: "Pending / announced", color: "#8a8f9c", dashed: true },
 ];
 
 function Stat({ figure, label }: { figure: string; label: string }) {
@@ -32,14 +33,16 @@ export default function Home() {
     <main className="mx-auto max-w-[1240px] px-6 py-10 sm:px-10 sm:py-14">
       {/* ---------- masthead ---------- */}
       <header>
-        <div className="eyebrow">Ownership &amp; Capital Structure · AI Sector</div>
+        <div className="eyebrow">Selected Ownership &amp; Financing Relationships · AI Sector</div>
         <h1 className="display mt-3 text-[42px] leading-[1.02] text-[var(--ink)] sm:text-[58px]">
           The AI Ownership Map
         </h1>
         <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-[var(--ink-2)]">
-          Who owns, controls and bankrolls the companies building artificial
-          intelligence. Every relationship below is source-linked and carries the
-          date it was last verified.
+          A curated map of the <strong>major</strong> ownership, control and
+          financing ties among the companies building artificial intelligence —
+          not a complete cap table. Each relationship is source-linked and carries
+          the date it was last verified; figures for private companies are
+          approximate and many smaller shareholders are intentionally omitted.
         </p>
 
         <div className="mt-8 flex flex-wrap items-end gap-y-6 border-y border-[var(--rule)] py-5">
@@ -66,8 +69,12 @@ export default function Home() {
           {LEGEND.map((l) => (
             <div key={l.label} className="flex items-center gap-2 text-[12px] text-[var(--ink-2)]">
               <span
-                className="inline-block h-[3px] w-6 rounded-full"
-                style={{ background: `var(${l.varName})` }}
+                className="inline-block w-6"
+                style={
+                  l.dashed
+                    ? { borderTop: `2px dashed ${l.color}` }
+                    : { height: "3px", background: l.color, borderRadius: "9999px" }
+                }
               />
               {l.label}
             </div>

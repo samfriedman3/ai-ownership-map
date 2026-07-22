@@ -33,6 +33,7 @@ const EDGE_COLOR: Record<RelationKind, string> = {
   investment: "#3e7c6a",
   "acqui-hire": "#8c4a5f",
   licensing: "#8c4a5f",
+  pending: "#8a8f9c",
 };
 
 function fontFor(weight = 20) {
@@ -187,6 +188,8 @@ export default function OwnershipGraph() {
           stroke: EDGE_COLOR[r.kind],
           strokeWidth: active ? 2.2 : 1.2,
           opacity: active ? 0.8 : 0.1,
+          // Pending/announced deals render dashed — not yet legal control.
+          strokeDasharray: r.kind === "pending" ? "6 4" : undefined,
         },
         labelStyle: { fill: "#14181f", fontSize: 11, fontWeight: 700 },
         labelBgStyle: { fill: "#ffffff", opacity: 0.97, stroke: "#e4e1da" },

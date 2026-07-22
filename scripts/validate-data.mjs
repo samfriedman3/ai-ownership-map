@@ -17,6 +17,7 @@ const RELATION_KINDS = new Set([
   "acqui-hire",
   "licensing",
   "subsidiary",
+  "pending",
 ]);
 const ENTITY_KINDS = new Set(["lab", "bigtech", "investor", "foundation"]);
 const ISO = /^\d{4}-\d{2}-\d{2}$/;

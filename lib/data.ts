@@ -55,4 +55,5 @@ export const RELATION_LABELS: Record<Relationship["kind"], string> = {
   "acqui-hire": "Acqui-hire",
   licensing: "Licensing + talent",
   subsidiary: "Wholly owned",
+  pending: "Pending acquisition",
 };

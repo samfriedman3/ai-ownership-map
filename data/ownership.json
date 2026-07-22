@@ -10,7 +10,7 @@
       "hq": "San Francisco, USA",
       "founded": 2015,
       "website": "https://openai.com",
-      "weight": 100,
+      "weight": 98,
       "valuationB": 852
     },
     {
@@ -29,12 +29,12 @@
       "name": "Anthropic",
       "kind": "lab",
       "sector": "frontier",
-      "blurb": "Maker of the Claude models and a public-benefit corporation. Backed by Amazon, Google, Microsoft and Nvidia while remaining independently controlled by its founders and a long-term-benefit trust. Reportedly in talks in mid-2026 to raise at up to a $900B valuation.",
+      "blurb": "Maker of the Claude models and a public-benefit corporation. In May 2026 it closed a $65B Series H at a $965B post-money valuation — overtaking OpenAI as the world's most valuable AI startup — while remaining controlled by its founders and a long-term-benefit trust. Backed by Amazon, Google, Microsoft, Nvidia and a broad syndicate of growth funds.",
       "hq": "San Francisco, USA",
       "founded": 2021,
       "website": "https://anthropic.com",
-      "weight": 88,
-      "valuationB": 380
+      "weight": 100,
+      "valuationB": 965
     },
     {
       "id": "meta-superintelligence",
@@ -226,7 +226,6 @@
       "weight": 16,
       "valuationB": 1
     },
-
     {
       "id": "nvidia",
       "name": "Nvidia",
@@ -419,8 +418,14 @@
       "asOf": "2025-10-28",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "OpenAI completes restructure — CNBC", "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html" },
-        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
+        {
+          "title": "OpenAI completes restructure — CNBC",
+          "url": "https://www.cnbc.com/2025/10/28/open-ai-for-profit-microsoft.html"
+        },
+        {
+          "title": "Who owns OpenAI — ownership structure explained",
+          "url": "https://www.revenuememo.com/p/who-owns-openai"
+        }
       ]
     },
     {
@@ -429,13 +434,18 @@
       "to": "openai",
       "kind": "equity",
       "stake": "~27%",
-      "voting": false,
-      "detail": "Microsoft is OpenAI's largest external shareholder (~26.79% at the October 2025 recap, since diluted by the 2026 round), with model access through 2032. The exclusive partnership and revenue-share ended in April 2026.",
+      "detail": "Microsoft is OpenAI's largest external shareholder (~27%, since diluted by the 2026 round). Under the April 2026 partnership revamp Microsoft lost exclusivity — OpenAI can now serve customers on any cloud — but OpenAI continues paying Microsoft a (now-capped) ~20% revenue share through 2030, and Microsoft keeps a four-month first-look window on new frontier models.",
       "asOf": "2025-10-28",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Microsoft to get 27% of OpenAI — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2025-10-28/microsoft-to-get-27-of-openai-access-to-ai-models-until-2032" },
-        { "title": "OpenAI and Microsoft end exclusive partnership — Forbes", "url": "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/" }
+        {
+          "title": "OpenAI caps Microsoft revenue-share payments — CNBC",
+          "url": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
+        },
+        {
+          "title": "The next phase of the Microsoft–OpenAI partnership — Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/"
+        }
       ]
     },
     {
@@ -444,13 +454,18 @@
       "to": "openai",
       "kind": "investment",
       "stake": "~$30B (2026 round)",
-      "voting": false,
       "detail": "The original ~$100B Nvidia–OpenAI investment partnership announced in Sept 2025 stalled and was never signed. Nvidia instead committed ~$30B to OpenAI's Feb 2026 round, alongside a 10-gigawatt compute partnership.",
       "asOf": "2026-02-27",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Nvidia investment in OpenAI round 'nothing like' $100B — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-01-31/nvidia-to-join-openai-s-current-funding-round-huang-says" },
-        { "title": "OpenAI–Nvidia stalled on mega deal — CNBC", "url": "https://www.cnbc.com/2026/02/03/nvidia-openai-stalled-on-their-mega-deal-ai-giants-need-each-other.html" }
+        {
+          "title": "Nvidia investment in OpenAI round 'nothing like' $100B — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-31/nvidia-to-join-openai-s-current-funding-round-huang-says"
+        },
+        {
+          "title": "OpenAI–Nvidia stalled on mega deal — CNBC",
+          "url": "https://www.cnbc.com/2026/02/03/nvidia-openai-stalled-on-their-mega-deal-ai-giants-need-each-other.html"
+        }
       ]
     },
     {
@@ -459,12 +474,14 @@
       "to": "openai",
       "kind": "investment",
       "stake": "~$30B (2026 round)",
-      "voting": false,
       "detail": "SoftBank committed ~$30B to OpenAI's Feb 2026 round and anchored the earlier 2025 financings; the round pushed OpenAI's valuation to roughly $850B.",
       "asOf": "2026-02-27",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Nvidia and OpenAI's $100B deal is dead — analysis", "url": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620" }
+        {
+          "title": "Nvidia and OpenAI's $100B deal is dead — analysis",
+          "url": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620"
+        }
       ]
     },
     {
@@ -473,12 +490,14 @@
       "to": "openai",
       "kind": "investment",
       "stake": "~$50B (lead, 2026 round)",
-      "voting": false,
       "detail": "Amazon led OpenAI's ~$110B February 2026 round with roughly $50B — its first stake in OpenAI, and a notable move given Amazon is also Anthropic's largest backer.",
       "asOf": "2026-02-27",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Nvidia and OpenAI's $100B deal is dead — analysis", "url": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620" }
+        {
+          "title": "Nvidia and OpenAI's $100B deal is dead — analysis",
+          "url": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620"
+        }
       ]
     },
     {
@@ -487,12 +506,14 @@
       "to": "openai",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Thrive Capital has backed OpenAI consistently since 2023, participating across multiple rounds and the employee secondary sale.",
       "asOf": "2026-03-31",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "OpenAI takes stake in Thrive Holdings — Private Equity Insights", "url": "https://pe-insights.com/openai-strengthens-investor-alliance-with-stake-in-thrive-holdings/" }
+        {
+          "title": "OpenAI takes stake in Thrive Holdings — Private Equity Insights",
+          "url": "https://pe-insights.com/openai-strengthens-investor-alliance-with-stake-in-thrive-holdings/"
+        }
       ]
     },
     {
@@ -506,7 +527,10 @@
       "asOf": "2023-04-20",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Google DeepMind — official site", "url": "https://deepmind.google/about/" }
+        {
+          "title": "Google DeepMind — official site",
+          "url": "https://deepmind.google/about/"
+        }
       ]
     },
     {
@@ -516,11 +540,14 @@
       "kind": "convertible",
       "stake": "~$8B+ (non-voting)",
       "voting": false,
-      "detail": "Amazon is Anthropic's largest investor and primary cloud partner. Its position (convertible notes plus non-voting preferred) was reported worth ~$74B on paper by mid-2026.",
+      "detail": "Amazon is Anthropic's largest strategic investor (~$8B+, non-voting) and primary cloud/compute partner; its position rolled into the record $65B Series H that valued Anthropic at $965B in May 2026.",
       "asOf": "2026-06-04",
-      "verified": "2026-07-21",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
+        {
+          "title": "Amazon and Google's billions riding on Anthropic — Fortune",
+          "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/"
+        }
       ]
     },
     {
@@ -534,7 +561,10 @@
       "asOf": "2026-04-24",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
+        {
+          "title": "Amazon and Google's billions riding on Anthropic — Fortune",
+          "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/"
+        }
       ]
     },
     {
@@ -543,13 +573,18 @@
       "to": "anthropic",
       "kind": "investment",
       "stake": "up to $5B",
-      "voting": false,
-      "detail": "In November 2025 Microsoft agreed to invest up to $5B in Anthropic (paired with an Azure compute commitment from Anthropic), joining its $30B round that closed at a ~$380B valuation in Feb 2026 — even as Microsoft remains OpenAI's largest shareholder.",
+      "detail": "Microsoft agreed in November 2025 to invest up to $5B in Anthropic (with an Azure compute commitment) and rolled into the May 2026 Series H — even as it remains OpenAI's largest shareholder.",
       "asOf": "2026-02-12",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Anthropic valued ~$350B after Microsoft, Nvidia deal — CNBC", "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html" },
-        { "title": "Anthropic closes $30B round at $380B valuation — CNBC", "url": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html" }
+        {
+          "title": "Anthropic valued ~$350B after Microsoft, Nvidia deal — CNBC",
+          "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html"
+        },
+        {
+          "title": "Anthropic closes $30B round at $380B valuation — CNBC",
+          "url": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html"
+        }
       ]
     },
     {
@@ -558,12 +593,14 @@
       "to": "anthropic",
       "kind": "investment",
       "stake": "up to $10B",
-      "voting": false,
-      "detail": "Nvidia committed up to $10B to Anthropic in the November 2025 deal and joined the $30B round closing at ~$380B — backing Anthropic while also investing in OpenAI, SSI, Mistral and others.",
+      "detail": "Nvidia committed up to $10B to Anthropic in the November 2025 deal and participated in the $965B Series H — backing Anthropic while also investing in OpenAI, SSI, Mistral and others.",
       "asOf": "2026-02-12",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Anthropic valued ~$350B after Microsoft, Nvidia deal — CNBC", "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html" }
+        {
+          "title": "Anthropic valued ~$350B after Microsoft, Nvidia deal — CNBC",
+          "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html"
+        }
       ]
     },
     {
@@ -571,13 +608,19 @@
       "from": "coatue",
       "to": "anthropic",
       "kind": "investment",
-      "stake": "co-lead ($30B round)",
-      "voting": false,
-      "detail": "Coatue and Singapore's sovereign wealth fund GIC co-led Anthropic's $30B round that closed at a ~$380B post-money valuation in February 2026.",
-      "asOf": "2026-02-12",
+      "stake": "co-lead (Series H)",
+      "detail": "Coatue co-led Anthropic's record $65B Series H at a $965B valuation (May 2026), alongside Altimeter, Dragoneer, Greenoaks and Sequoia; Singapore's GIC also co-led.",
+      "asOf": "2026-05-28",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "Anthropic closes $30B round at $380B valuation — CNBC", "url": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html" }
+        {
+          "title": "Anthropic raises $65B at $965B valuation, eclipsing OpenAI — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-raises-at-965-billion-valuation-eclipsing-openai"
+        },
+        {
+          "title": "Anthropic tops OpenAI as most valuable AI startup — CNBC",
+          "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+        }
       ]
     },
     {
@@ -591,8 +634,14 @@
       "asOf": "2025-06-30",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Meta Superintelligence Labs — overview", "url": "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs" },
-        { "title": "Meta debuts first major AI model since Wang deal — CNBC", "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html" }
+        {
+          "title": "Meta Superintelligence Labs — overview",
+          "url": "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs"
+        },
+        {
+          "title": "Meta debuts first major AI model since Wang deal — CNBC",
+          "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html"
+        }
       ]
     },
     {
@@ -606,7 +655,10 @@
       "asOf": "2025-06-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Scale AI founder Wang exits for Meta — CNBC", "url": "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html" }
+        {
+          "title": "Scale AI founder Wang exits for Meta — CNBC",
+          "url": "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html"
+        }
       ]
     },
     {
@@ -620,23 +672,34 @@
       "asOf": "2026-02-02",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC", "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html" },
-        { "title": "SpaceX combines with xAI at $1.25T — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo" }
+        {
+          "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC",
+          "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html"
+        },
+        {
+          "title": "SpaceX combines with xAI at $1.25T — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo"
+        }
       ]
     },
     {
       "id": "spacex__anysphere",
       "from": "spacex",
       "to": "anysphere",
-      "kind": "controls",
+      "kind": "pending",
       "stake": "~$60B (all-stock, pending Q3 close)",
-      "voting": true,
       "detail": "SpaceX agreed to acquire Anysphere (maker of Cursor) for ~$60B all-stock, disclosed in a June 2026 SEC filing days after its IPO — the largest venture-backed startup acquisition on record. Expected to close in Q3 2026 pending regulatory approval; Cursor becomes a coding engine for xAI's Grok.",
       "asOf": "2026-06-16",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "SpaceX to acquire Cursor for $60B — CNBC", "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html" },
-        { "title": "SpaceX to acquire Cursor for $60B in stock — TechCrunch", "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/" }
+        {
+          "title": "SpaceX to acquire Cursor for $60B — CNBC",
+          "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html"
+        },
+        {
+          "title": "SpaceX to acquire Cursor for $60B in stock — TechCrunch",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
+        }
       ]
     },
     {
@@ -650,8 +713,14 @@
       "asOf": "2026-06-16",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin", "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html" },
-        { "title": "DeepSeek nears US$7b in first funding round — SCMP", "url": "https://www.scmp.com/tech/big-tech/article/3355818/deepseek-nears-us7b-haul-first-ever-funding-round-backing-tencent-catl" }
+        {
+          "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin",
+          "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html"
+        },
+        {
+          "title": "DeepSeek nears US$7b in first funding round — SCMP",
+          "url": "https://www.scmp.com/tech/big-tech/article/3355818/deepseek-nears-us7b-haul-first-ever-funding-round-backing-tencent-catl"
+        }
       ]
     },
     {
@@ -660,12 +729,14 @@
       "to": "deepseek",
       "kind": "investment",
       "stake": "~¥10B (~$1.4B)",
-      "voting": false,
       "detail": "Tencent was the largest outside backer of DeepSeek's first external round (~$7.4B total) in June 2026, contributing ~¥10B at a ~$52B valuation.",
       "asOf": "2026-06-16",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin", "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html" }
+        {
+          "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin",
+          "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html"
+        }
       ]
     },
     {
@@ -674,12 +745,14 @@
       "to": "deepseek",
       "kind": "investment",
       "stake": "~¥5B",
-      "voting": false,
       "detail": "Battery maker CATL contributed ~¥5B to DeepSeek's June 2026 round, alongside Tencent, NetEase and JD.com.",
       "asOf": "2026-06-16",
       "verified": "2026-07-22",
       "sources": [
-        { "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin", "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html" }
+        {
+          "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin",
+          "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html"
+        }
       ]
     },
     {
@@ -688,12 +761,14 @@
       "to": "ssi",
       "kind": "investment",
       "stake": "lead ($500M)",
-      "voting": false,
       "detail": "Greenoaks led SSI's ~$2B round in April 2025 at a $32B valuation, contributing $500M.",
       "asOf": "2025-04-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "SSI raises $2B at $32B valuation — TechCrunch", "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b" }
+        {
+          "title": "SSI raises $2B at $32B valuation — TechCrunch",
+          "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b"
+        }
       ]
     },
     {
@@ -702,12 +777,14 @@
       "to": "ssi",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Alphabet invested in SSI's 2025 round, paired with Google Cloud becoming SSI's primary TPU compute supplier.",
       "asOf": "2025-04-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Ilya Sutskever's SSI financial breakdown — StartupHub", "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06" }
+        {
+          "title": "Ilya Sutskever's SSI financial breakdown — StartupHub",
+          "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06"
+        }
       ]
     },
     {
@@ -716,12 +793,14 @@
       "to": "ssi",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia joined SSI's 2025 round, keeping the dominant chip vendor close to a marquee lab.",
       "asOf": "2025-04-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Ilya Sutskever's SSI financial breakdown — StartupHub", "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06" }
+        {
+          "title": "Ilya Sutskever's SSI financial breakdown — StartupHub",
+          "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06"
+        }
       ]
     },
     {
@@ -730,12 +809,14 @@
       "to": "ssi",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Andreessen Horowitz backed SSI's $1B seed and returned for the 2025 round.",
       "asOf": "2025-04-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "SSI raises $2B at $32B valuation — TechCrunch", "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b" }
+        {
+          "title": "SSI raises $2B at $32B valuation — TechCrunch",
+          "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b"
+        }
       ]
     },
     {
@@ -744,12 +825,14 @@
       "to": "ssi",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Lightspeed returned for SSI's 2025 round alongside DST Global.",
       "asOf": "2025-04-12",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Ilya Sutskever's SSI financial breakdown — StartupHub", "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06" }
+        {
+          "title": "Ilya Sutskever's SSI financial breakdown — StartupHub",
+          "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06"
+        }
       ]
     },
     {
@@ -758,12 +841,14 @@
       "to": "thinking-machines",
       "kind": "investment",
       "stake": "lead ($2B seed)",
-      "voting": false,
       "detail": "Andreessen Horowitz led Thinking Machines Lab's $2B seed — the largest in history — at a $12B valuation in July 2025.",
       "asOf": "2025-07-15",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Thinking Machines Lab worth $12B in seed round — TechCrunch", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/" }
+        {
+          "title": "Thinking Machines Lab worth $12B in seed round — TechCrunch",
+          "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"
+        }
       ]
     },
     {
@@ -772,12 +857,14 @@
       "to": "thinking-machines",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia joined the $2B seed alongside Accel, ServiceNow, Cisco, AMD and Jane Street, and has since made multi-billion infrastructure commitments.",
       "asOf": "2025-07-15",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Thinking Machines Lab worth $12B in seed round — TechCrunch", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/" }
+        {
+          "title": "Thinking Machines Lab worth $12B in seed round — TechCrunch",
+          "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"
+        }
       ]
     },
     {
@@ -786,13 +873,18 @@
       "to": "mistral",
       "kind": "equity",
       "stake": "~11%",
-      "voting": false,
       "detail": "ASML led Mistral's €1.7B Series C in September 2025 with ~€1.3B, becoming its largest shareholder at ~11% and taking a seat on the strategic committee.",
       "asOf": "2025-09-09",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Mistral valued at $14B as ASML takes major stake — CNBC", "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html" },
-        { "title": "ASML–Mistral strategic partnership — ASML", "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership" }
+        {
+          "title": "Mistral valued at $14B as ASML takes major stake — CNBC",
+          "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html"
+        },
+        {
+          "title": "ASML–Mistral strategic partnership — ASML",
+          "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
+        }
       ]
     },
     {
@@ -801,12 +893,14 @@
       "to": "mistral",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia is a recurring Mistral investor, committing again in the 2025 Series C alongside a16z, DST, General Catalyst, Index, Lightspeed and Bpifrance.",
       "asOf": "2025-09-09",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Mistral raises €1.7B — Mistral AI", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/" }
+        {
+          "title": "Mistral raises €1.7B — Mistral AI",
+          "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/"
+        }
       ]
     },
     {
@@ -815,12 +909,14 @@
       "to": "perplexity",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia is among Perplexity's strategic investors; the company was valued at ~$23B in its January 2026 round.",
       "asOf": "2026-01-09",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Perplexity AI valuation 2026 — ValueAdd VC", "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr" }
+        {
+          "title": "Perplexity AI valuation 2026 — ValueAdd VC",
+          "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr"
+        }
       ]
     },
     {
@@ -829,12 +925,14 @@
       "to": "perplexity",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "SoftBank's Vision Fund 2 is a Perplexity backer, alongside Jeff Bezos, IVP, Accel and NEA.",
       "asOf": "2026-01-09",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Perplexity AI valuation 2026 — ValueAdd VC", "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr" }
+        {
+          "title": "Perplexity AI valuation 2026 — ValueAdd VC",
+          "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr"
+        }
       ]
     },
     {
@@ -843,13 +941,18 @@
       "to": "elevenlabs",
       "kind": "investment",
       "stake": "lead ($500M)",
-      "voting": false,
       "detail": "Sequoia led ElevenLabs' $500M Series D in February 2026 at an $11B valuation, taking a board seat.",
       "asOf": "2026-02-04",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "ElevenLabs raises $500M at $11B valuation — TechCrunch", "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/" },
-        { "title": "ElevenLabs Series D — company blog", "url": "https://elevenlabs.io/blog/series-d" }
+        {
+          "title": "ElevenLabs raises $500M at $11B valuation — TechCrunch",
+          "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/"
+        },
+        {
+          "title": "ElevenLabs Series D — company blog",
+          "url": "https://elevenlabs.io/blog/series-d"
+        }
       ]
     },
     {
@@ -858,12 +961,14 @@
       "to": "elevenlabs",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Andreessen Horowitz quadrupled down in the 2026 Series D with super pro-rata participation, alongside ICONIQ.",
       "asOf": "2026-02-04",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "ElevenLabs Series D — company blog", "url": "https://elevenlabs.io/blog/series-d" }
+        {
+          "title": "ElevenLabs Series D — company blog",
+          "url": "https://elevenlabs.io/blog/series-d"
+        }
       ]
     },
     {
@@ -872,12 +977,14 @@
       "to": "elevenlabs",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia joined the third close of ElevenLabs' Series D in May 2026, with BlackRock, Wellington, Salesforce and Santander.",
       "asOf": "2026-05-01",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Nvidia-backed ElevenLabs hits $11B valuation — CNBC", "url": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html" }
+        {
+          "title": "Nvidia-backed ElevenLabs hits $11B valuation — CNBC",
+          "url": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html"
+        }
       ]
     },
     {
@@ -886,12 +993,14 @@
       "to": "cohere",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia has backed Cohere since its 2023 Series C and returned for the $500M round at a $6.8B valuation.",
       "asOf": "2026-03-01",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Cohere hits $6.8B valuation as AMD, Nvidia, Salesforce double down — TechCrunch", "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down" }
+        {
+          "title": "Cohere hits $6.8B valuation as AMD, Nvidia, Salesforce double down — TechCrunch",
+          "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+        }
       ]
     },
     {
@@ -900,12 +1009,14 @@
       "to": "cohere",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Salesforce Ventures has backed Cohere since 2023 and re-upped in the round that valued it at $6.8B.",
       "asOf": "2026-03-01",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Cohere hits $6.8B valuation — TechCrunch", "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down" }
+        {
+          "title": "Cohere hits $6.8B valuation — TechCrunch",
+          "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+        }
       ]
     },
     {
@@ -914,12 +1025,14 @@
       "to": "hugging-face",
       "kind": "investment",
       "stake": "lead",
-      "voting": false,
       "detail": "Salesforce led Hugging Face's $235M Series D at a $4.5B valuation.",
       "asOf": "2023-08-24",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC", "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html" }
+        {
+          "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC",
+          "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html"
+        }
       ]
     },
     {
@@ -928,12 +1041,14 @@
       "to": "hugging-face",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Nvidia joined Hugging Face's Series D alongside Google, Amazon, AMD, Intel, IBM and Qualcomm.",
       "asOf": "2023-08-24",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC", "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html" }
+        {
+          "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC",
+          "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html"
+        }
       ]
     },
     {
@@ -942,12 +1057,14 @@
       "to": "hugging-face",
       "kind": "investment",
       "stake": "minority",
-      "voting": false,
       "detail": "Google participated in the Series D that valued Hugging Face at $4.5B.",
       "asOf": "2023-08-24",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC", "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html" }
+        {
+          "title": "Google, Amazon, Nvidia and others invest in Hugging Face — CNBC",
+          "url": "https://www.cnbc.com/2023/08/24/google-amazon-nvidia-amd-other-tech-giants-invest-in-hugging-face.html"
+        }
       ]
     },
     {
@@ -956,12 +1073,14 @@
       "to": "inflection",
       "kind": "acqui-hire",
       "stake": "~$650M licence",
-      "voting": false,
       "detail": "Microsoft paid ~$650M for a non-exclusive licence to Inflection's models and hired ~70 staff including Mustafa Suleyman and Karén Simonyan. It bought no equity — Inflection remains independent.",
       "asOf": "2024-03-21",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Microsoft to pay Inflection AI $650M — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2024-03-21/microsoft-to-pay-inflection-ai-650-million-after-scooping-up-most-of-staff" }
+        {
+          "title": "Microsoft to pay Inflection AI $650M — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2024-03-21/microsoft-to-pay-inflection-ai-650-million-after-scooping-up-most-of-staff"
+        }
       ]
     },
     {
@@ -970,12 +1089,14 @@
       "to": "character-ai",
       "kind": "licensing",
       "stake": "$2.7B licence",
-      "voting": false,
       "detail": "Google paid ~$2.7B in August 2024 for a non-exclusive licence to Character.AI's technology and to re-hire co-founder Noam Shazeer. The structure drew DOJ antitrust scrutiny; Character.AI stayed independent.",
       "asOf": "2024-08-02",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Google's $2.7B Character.AI deal draws DOJ attention — Calcalist", "url": "https://www.calcalistech.com/ctechnews/article/sy06wllflg" }
+        {
+          "title": "Google's $2.7B Character.AI deal draws DOJ attention — Calcalist",
+          "url": "https://www.calcalistech.com/ctechnews/article/sy06wllflg"
+        }
       ]
     },
     {
@@ -984,12 +1105,14 @@
       "to": "stability-ai",
       "kind": "investment",
       "stake": "co-lead",
-      "voting": false,
       "detail": "Coatue co-led Stability AI's 2024 recapitalisation, which cleared the company's debt under new CEO Prem Akkaraju at a ~$1B valuation.",
       "asOf": "2024-06-25",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Stability AI funding & investors — Sacra", "url": "https://sacra.com/c/stability-ai/" }
+        {
+          "title": "Stability AI funding & investors — Sacra",
+          "url": "https://sacra.com/c/stability-ai/"
+        }
       ]
     },
     {
@@ -998,12 +1121,46 @@
       "to": "stability-ai",
       "kind": "investment",
       "stake": "co-lead",
-      "voting": false,
       "detail": "Lightspeed co-led the 2024 round alongside Coatue, Greycroft, Sound Ventures and angels including Eric Schmidt and Sean Parker.",
       "asOf": "2024-06-25",
       "verified": "2026-07-21",
       "sources": [
-        { "title": "Stability AI funding & investors — Sacra", "url": "https://sacra.com/c/stability-ai/" }
+        {
+          "title": "Stability AI funding & investors — Sacra",
+          "url": "https://sacra.com/c/stability-ai/"
+        }
+      ]
+    },
+    {
+      "id": "sequoia__anthropic",
+      "from": "sequoia",
+      "to": "anthropic",
+      "kind": "investment",
+      "stake": "co-lead (Series H)",
+      "detail": "Sequoia co-led Anthropic's $65B Series H at a $965B valuation in May 2026 (it also led ElevenLabs' 2026 round).",
+      "asOf": "2026-05-28",
+      "verified": "2026-07-22",
+      "sources": [
+        {
+          "title": "Anthropic raises $65B, nears $1T valuation — TechCrunch",
+          "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/"
+        }
+      ]
+    },
+    {
+      "id": "greenoaks__anthropic",
+      "from": "greenoaks",
+      "to": "anthropic",
+      "kind": "investment",
+      "stake": "co-lead (Series H)",
+      "detail": "Greenoaks co-led Anthropic's May 2026 Series H — the same firm that leads Safe Superintelligence, tying it to two of the top frontier labs.",
+      "asOf": "2026-05-28",
+      "verified": "2026-07-22",
+      "sources": [
+        {
+          "title": "Anthropic eclipses OpenAI at $965B — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-raises-at-965-billion-valuation-eclipsing-openai"
+        }
       ]
     }
   ]

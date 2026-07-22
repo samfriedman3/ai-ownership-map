@@ -43,7 +43,8 @@ export type RelationKind =
   | "convertible" // convertible notes / SAFEs
   | "acqui-hire" // absorbed the team / key talent
   | "licensing" // tech-licensing + talent deal (e.g. Character.AI, Inflection)
-  | "subsidiary"; // wholly-owned part of the parent
+  | "subsidiary" // wholly-owned part of the parent
+  | "pending"; // announced/agreed acquisition not yet closed (no control until close)
 
 export interface Source {
   title: string;
