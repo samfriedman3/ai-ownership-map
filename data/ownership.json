@@ -96,6 +96,18 @@
       "valuationB": 29
     },
     {
+      "id": "anysphere",
+      "name": "Anysphere (Cursor)",
+      "kind": "lab",
+      "sector": "specialist",
+      "blurb": "Maker of Cursor, the leading AI coding tool. SpaceX agreed in June 2026 to acquire it for ~$60B all-stock — the largest venture-backed startup acquisition on record — pending regulatory approval, expected to close Q3 2026.",
+      "hq": "San Francisco, USA",
+      "founded": 2022,
+      "website": "https://cursor.com",
+      "weight": 58,
+      "valuationB": 60
+    },
+    {
       "id": "perplexity",
       "name": "Perplexity AI",
       "kind": "lab",
@@ -112,7 +124,7 @@
       "name": "Mistral AI",
       "kind": "lab",
       "sector": "open-source",
-      "blurb": "France's leading AI lab, known for open-weight models. Europe's flagship independent frontier effort.",
+      "blurb": "France's leading AI lab, known for open-weight models — Europe's flagship independent frontier effort. Last valued at ~€11.7B ($14B) in its Sept 2025 ASML-led round; reportedly in talks in mid-2026 to raise ~€3B at a ~€20B ($23B) valuation.",
       "hq": "Paris, France",
       "founded": 2023,
       "website": "https://mistral.ai",
@@ -280,7 +292,7 @@
       "name": "SpaceX",
       "kind": "bigtech",
       "sector": "infrastructure",
-      "blurb": "Elon Musk's rocket company, which absorbed xAI in early 2026 ahead of a planned IPO.",
+      "blurb": "Elon Musk's rocket company, which absorbed xAI in early 2026, went public on Nasdaq (SPCX) in June 2026, and days later agreed to acquire Cursor-maker Anysphere for ~$60B.",
       "hq": "Hawthorne, USA",
       "website": "https://spacex.com",
       "weight": 85
@@ -610,6 +622,21 @@
       "sources": [
         { "title": "Musk's xAI, SpaceX combo biggest merger ever — CNBC", "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html" },
         { "title": "SpaceX combines with xAI at $1.25T — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo" }
+      ]
+    },
+    {
+      "id": "spacex__anysphere",
+      "from": "spacex",
+      "to": "anysphere",
+      "kind": "controls",
+      "stake": "~$60B (all-stock, pending Q3 close)",
+      "voting": true,
+      "detail": "SpaceX agreed to acquire Anysphere (maker of Cursor) for ~$60B all-stock, disclosed in a June 2026 SEC filing days after its IPO — the largest venture-backed startup acquisition on record. Expected to close in Q3 2026 pending regulatory approval; Cursor becomes a coding engine for xAI's Grok.",
+      "asOf": "2026-06-16",
+      "verified": "2026-07-22",
+      "sources": [
+        { "title": "SpaceX to acquire Cursor for $60B — CNBC", "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html" },
+        { "title": "SpaceX to acquire Cursor for $60B in stock — TechCrunch", "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/" }
       ]
     },
     {
