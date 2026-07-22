@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "entities": [
     {
       "id": "openai",
@@ -29,12 +29,12 @@
       "name": "Anthropic",
       "kind": "lab",
       "sector": "frontier",
-      "blurb": "Maker of the Claude models and a public-benefit corporation. Backed heavily by Amazon and Google while remaining independently controlled by its founders and a long-term-benefit trust.",
+      "blurb": "Maker of the Claude models and a public-benefit corporation. Backed by Amazon, Google, Microsoft and Nvidia while remaining independently controlled by its founders and a long-term-benefit trust. Reportedly in talks in mid-2026 to raise at up to a $900B valuation.",
       "hq": "San Francisco, USA",
       "founded": 2021,
       "website": "https://anthropic.com",
       "weight": 88,
-      "valuationB": 350
+      "valuationB": 380
     },
     {
       "id": "meta-superintelligence",
@@ -64,12 +64,12 @@
       "name": "DeepSeek",
       "kind": "lab",
       "sector": "open-source",
-      "blurb": "Chinese lab whose efficient open-weight models shook the market in 2025. Wholly backed by hedge fund High-Flyer until its first external round in June 2026.",
+      "blurb": "Chinese lab whose efficient open-weight models shook the market in 2025. Wholly backed by hedge fund High-Flyer until its first external round (~$7.4B) closed in June 2026.",
       "hq": "Hangzhou, China",
       "founded": 2023,
       "website": "https://deepseek.com",
       "weight": 62,
-      "valuationB": 55
+      "valuationB": 52
     },
     {
       "id": "ssi",
@@ -387,14 +387,6 @@
       "weight": 40
     },
     {
-      "id": "china-ai-fund",
-      "name": "China National AI Industry Investment Fund",
-      "kind": "investor",
-      "blurb": "State-backed fund — the only DeepSeek investor holding direct voting rights.",
-      "hq": "Beijing, China",
-      "weight": 38
-    },
-    {
       "id": "openai-foundation",
       "name": "OpenAI Foundation",
       "kind": "foundation",
@@ -439,13 +431,14 @@
       "from": "nvidia",
       "to": "openai",
       "kind": "investment",
-      "stake": "$30B committed",
+      "stake": "~$30B (2026 round)",
       "voting": false,
-      "detail": "Nvidia committed roughly $30B to OpenAI's 2026 round, deepening the chipmaker's financial ties to its largest customer.",
-      "asOf": "2026-03-31",
-      "verified": "2026-07-21",
+      "detail": "The original ~$100B Nvidia–OpenAI investment partnership announced in Sept 2025 stalled and was never signed. Nvidia instead committed ~$30B to OpenAI's Feb 2026 round, alongside a 10-gigawatt compute partnership.",
+      "asOf": "2026-02-27",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
+        { "title": "Nvidia investment in OpenAI round 'nothing like' $100B — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-01-31/nvidia-to-join-openai-s-current-funding-round-huang-says" },
+        { "title": "OpenAI–Nvidia stalled on mega deal — CNBC", "url": "https://www.cnbc.com/2026/02/03/nvidia-openai-stalled-on-their-mega-deal-ai-giants-need-each-other.html" }
       ]
     },
     {
@@ -453,13 +446,13 @@
       "from": "softbank",
       "to": "openai",
       "kind": "investment",
-      "stake": "lead investor",
+      "stake": "~$30B (2026 round)",
       "voting": false,
-      "detail": "SoftBank anchored OpenAI's record 2025–2026 financings, which closed at a $852B post-money valuation in March 2026.",
-      "asOf": "2026-03-31",
-      "verified": "2026-07-21",
+      "detail": "SoftBank committed ~$30B to OpenAI's Feb 2026 round and anchored the earlier 2025 financings; the round pushed OpenAI's valuation to roughly $850B.",
+      "asOf": "2026-02-27",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
+        { "title": "Nvidia and OpenAI's $100B deal is dead — analysis", "url": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620" }
       ]
     },
     {
@@ -467,13 +460,13 @@
       "from": "amazon",
       "to": "openai",
       "kind": "investment",
-      "stake": "2026 round",
+      "stake": "~$50B (lead, 2026 round)",
       "voting": false,
-      "detail": "Amazon entered OpenAI's cap table for the first time as one of the anchors of the 2026 mega-round.",
-      "asOf": "2026-03-31",
-      "verified": "2026-07-21",
+      "detail": "Amazon led OpenAI's ~$110B February 2026 round with roughly $50B — its first stake in OpenAI, and a notable move given Amazon is also Anthropic's largest backer.",
+      "asOf": "2026-02-27",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "Who owns OpenAI — ownership structure explained", "url": "https://www.revenuememo.com/p/who-owns-openai" }
+        { "title": "Nvidia and OpenAI's $100B deal is dead — analysis", "url": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620" }
       ]
     },
     {
@@ -525,11 +518,54 @@
       "kind": "equity",
       "stake": "up to $40B (non-voting)",
       "voting": false,
-      "detail": "In April 2026 Google committed up to $40B to Anthropic, with $10B wired immediately at a ~$350B valuation, on top of earlier multi-billion investments. The stake is minority and non-controlling.",
+      "detail": "In April 2026 Google committed up to $40B to Anthropic, with $10B wired immediately, on top of earlier multi-billion investments. The stake is minority and non-controlling.",
       "asOf": "2026-04-24",
-      "verified": "2026-07-21",
+      "verified": "2026-07-22",
       "sources": [
         { "title": "Amazon and Google's billions riding on Anthropic — Fortune", "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/" }
+      ]
+    },
+    {
+      "id": "microsoft__anthropic",
+      "from": "microsoft",
+      "to": "anthropic",
+      "kind": "investment",
+      "stake": "up to $5B",
+      "voting": false,
+      "detail": "In November 2025 Microsoft agreed to invest up to $5B in Anthropic (paired with an Azure compute commitment from Anthropic), joining its $30B round that closed at a ~$380B valuation in Feb 2026 — even as Microsoft remains OpenAI's largest shareholder.",
+      "asOf": "2026-02-12",
+      "verified": "2026-07-22",
+      "sources": [
+        { "title": "Anthropic valued ~$350B after Microsoft, Nvidia deal — CNBC", "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html" },
+        { "title": "Anthropic closes $30B round at $380B valuation — CNBC", "url": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html" }
+      ]
+    },
+    {
+      "id": "nvidia__anthropic",
+      "from": "nvidia",
+      "to": "anthropic",
+      "kind": "investment",
+      "stake": "up to $10B",
+      "voting": false,
+      "detail": "Nvidia committed up to $10B to Anthropic in the November 2025 deal and joined the $30B round closing at ~$380B — backing Anthropic while also investing in OpenAI, SSI, Mistral and others.",
+      "asOf": "2026-02-12",
+      "verified": "2026-07-22",
+      "sources": [
+        { "title": "Anthropic valued ~$350B after Microsoft, Nvidia deal — CNBC", "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html" }
+      ]
+    },
+    {
+      "id": "coatue__anthropic",
+      "from": "coatue",
+      "to": "anthropic",
+      "kind": "investment",
+      "stake": "co-lead ($30B round)",
+      "voting": false,
+      "detail": "Coatue and Singapore's sovereign wealth fund GIC co-led Anthropic's $30B round that closed at a ~$380B post-money valuation in February 2026.",
+      "asOf": "2026-02-12",
+      "verified": "2026-07-22",
+      "sources": [
+        { "title": "Anthropic closes $30B round at $380B valuation — CNBC", "url": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html" }
       ]
     },
     {
@@ -583,12 +619,12 @@
       "kind": "controls",
       "stake": "founder / control",
       "voting": true,
-      "detail": "DeepSeek was created and wholly funded by hedge fund High-Flyer. Founder Liang Wenfeng retains ~78% control, and 2026 investors were routed through a partnership he controls, insulating him from outside shareholders.",
+      "detail": "DeepSeek was created and wholly funded by hedge fund High-Flyer. In the June 2026 round, founder Liang Wenfeng himself contributed ¥20B and retains founder control; the round valued DeepSeek at ~$52B (¥350B+).",
       "asOf": "2026-06-16",
-      "verified": "2026-07-21",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "DeepSeek raises $7.4B with unusual control structure", "url": "https://chinabizinsider.com/deepseek-closes-7-4-billion-debut-funding-round-under-founder-control-structure/" },
-        { "title": "DeepSeek just raised $7.4 billion — Forbes", "url": "https://www.forbes.com/sites/anishasircar/2026/06/17/deepseek-just-raised-74-billion-heres-the-catch/" }
+        { "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin", "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html" },
+        { "title": "DeepSeek nears US$7b in first funding round — SCMP", "url": "https://www.scmp.com/tech/big-tech/article/3355818/deepseek-nears-us7b-haul-first-ever-funding-round-backing-tencent-catl" }
       ]
     },
     {
@@ -596,13 +632,13 @@
       "from": "tencent",
       "to": "deepseek",
       "kind": "investment",
-      "stake": "co-lead (non-voting)",
+      "stake": "~¥10B (~$1.4B)",
       "voting": false,
-      "detail": "Tencent co-led DeepSeek's first external round (~$7.4B / ¥50B+) in June 2026 at a reported $50–59B valuation, but holds no voting rights and is locked up for five years.",
+      "detail": "Tencent was the largest outside backer of DeepSeek's first external round (~$7.4B total) in June 2026, contributing ~¥10B at a ~$52B valuation.",
       "asOf": "2026-06-16",
-      "verified": "2026-07-21",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "DeepSeek just raised $7.4 billion — Forbes", "url": "https://www.forbes.com/sites/anishasircar/2026/06/17/deepseek-just-raised-74-billion-heres-the-catch/" }
+        { "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin", "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html" }
       ]
     },
     {
@@ -610,27 +646,13 @@
       "from": "catl",
       "to": "deepseek",
       "kind": "investment",
-      "stake": "co-lead (non-voting)",
+      "stake": "~¥5B",
       "voting": false,
-      "detail": "Battery maker CATL co-led DeepSeek's 2026 round through the founder-controlled partnership, with no voting rights and a five-year lockup.",
+      "detail": "Battery maker CATL contributed ~¥5B to DeepSeek's June 2026 round, alongside Tencent, NetEase and JD.com.",
       "asOf": "2026-06-16",
-      "verified": "2026-07-21",
+      "verified": "2026-07-22",
       "sources": [
-        { "title": "DeepSeek raises $7.4B with unusual control structure", "url": "https://chinabizinsider.com/deepseek-closes-7-4-billion-debut-funding-round-under-founder-control-structure/" }
-      ]
-    },
-    {
-      "id": "china-ai-fund__deepseek",
-      "from": "china-ai-fund",
-      "to": "deepseek",
-      "kind": "equity",
-      "stake": "¥1B direct",
-      "voting": true,
-      "detail": "China's state National AI Industry Investment Fund invested ¥1B directly — the only DeepSeek investor with voting rights and no lockup.",
-      "asOf": "2026-06-16",
-      "verified": "2026-07-21",
-      "sources": [
-        { "title": "DeepSeek raises $7.4B with unusual control structure", "url": "https://chinabizinsider.com/deepseek-closes-7-4-billion-debut-funding-round-under-founder-control-structure/" }
+        { "title": "DeepSeek reaches $52B valuation, backed by Tencent, CATL — Caixin", "url": "https://www.caixinglobal.com/2026-07-17/deepseek-reaches-52-billion-valuation-in-round-backed-by-tencent-catl-102465358.html" }
       ]
     },
     {
